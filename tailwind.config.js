@@ -11,6 +11,9 @@ module.exports = {
         'custom__alert': '#D02424',
         'custom__brand': '#BB241D',
       },
+      screens: {
+        'xs': '480px',
+      },
       spacing: {
         '128': '32rem',
         '144': '36rem',
@@ -29,7 +32,7 @@ module.exports = {
       },
       zIndex: {
         '100': '100',
-      },
+      }
     },
     fontFamily: {
       num:['Water Brush']
