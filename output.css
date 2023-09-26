@@ -1302,8 +1302,20 @@ select{
   width: 100%;
 }
 
+.w-2\/5{
+  width: 40%;
+}
+
+.w-3\/5{
+  width: 60%;
+}
+
 .min-w-full{
   min-width: 100%;
+}
+
+.max-w-7xl{
+  max-width: 80rem;
 }
 
 .max-w-\[85rem\]{
@@ -1392,6 +1404,18 @@ select{
   flex-wrap: wrap;
 }
 
+.place-content-center{
+  place-content: center;
+}
+
+.place-items-center{
+  place-items: center;
+}
+
+.content-center{
+  align-content: center;
+}
+
 .items-end{
   align-items: flex-end;
 }
@@ -1410,6 +1434,10 @@ select{
 
 .justify-between{
   justify-content: space-between;
+}
+
+.justify-items-center{
+  justify-items: center;
 }
 
 .gap-10{
@@ -1442,6 +1470,10 @@ select{
 
 .gap-8{
   gap: 2rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
 }
 
 .gap-x-0{
@@ -1526,6 +1558,10 @@ select{
 
 .rounded-md{
   border-radius: 0.375rem;
+}
+
+.rounded-none{
+  border-radius: 0px;
 }
 
 .rounded-xl{
@@ -1879,6 +1915,11 @@ select{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-blue-600{
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
 .opacity-0{
   opacity: 0;
 }
@@ -2008,6 +2049,16 @@ html {
 .first-letter\:text-3xl::first-letter{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.placeholder\:text-gray-400::-moz-placeholder{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-gray-400::placeholder{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .before\:absolute::before{
@@ -2255,8 +2306,12 @@ html {
 }
 
 @media (min-width: 480px){
-  .xs\:rounded-lg{
-    border-radius: 0.5rem;
+  .xs\:flex{
+    display: flex;
+  }
+
+  .xs\:hidden{
+    display: none;
   }
 }
 
@@ -2287,6 +2342,10 @@ html {
 
   .sm\:flex{
     display: flex;
+  }
+
+  .sm\:hidden{
+    display: none;
   }
 
   .sm\:w-40{
@@ -2340,10 +2399,6 @@ html {
 
   .sm\:gap-y-0{
     row-gap: 0px;
-  }
-
-  .sm\:rounded-lg{
-    border-radius: 0.5rem;
   }
 
   .sm\:border{
@@ -2526,6 +2581,10 @@ html {
     gap: 2rem;
   }
 
+  .md\:rounded-lg{
+    border-radius: 0.5rem;
+  }
+
   .md\:bg-custom__third{
     --tw-bg-opacity: 1;
     background-color: rgb(240 245 225 / var(--tw-bg-opacity));
@@ -2541,9 +2600,9 @@ html {
     padding-right: 4rem;
   }
 
-  .md\:px-36{
-    padding-left: 9rem;
-    padding-right: 9rem;
+  .md\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .md\:py-12{
