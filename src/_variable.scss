@@ -1,0 +1,25 @@
+// scroll smooth
+html{
+    scroll-behavior: smooth;
+}
+
+// arrow icon
+.arrow {
+    transform: rotate(0deg);
+    // transition: all 0.5s;
+
+    &.active {
+        transform: rotate(90deg);
+    }
+}
+
+// swiper
+.swiper{
+    --swiper-theme-color: white;
+    --swiper-navigation-color: white;
+    --swiper-navigation-size: 30px;
+  }
+
+.mainMenu > li > a{
+    display: block;
+}
