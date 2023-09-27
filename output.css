@@ -2293,11 +2293,6 @@ html {
   --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
 }
 
-.focus\:ring-blue-600:focus{
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(37 99 235 / var(--tw-ring-opacity));
-}
-
 .focus\:ring-custom__secondary:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(198 210 146 / var(--tw-ring-opacity));
@@ -2444,10 +2439,6 @@ html {
     display: flex;
   }
 
-  .sm\:hidden{
-    display: none;
-  }
-
   .sm\:w-40{
     width: 10rem;
   }
@@ -2474,10 +2465,6 @@ html {
 
   .sm\:items-center{
     align-items: center;
-  }
-
-  .sm\:justify-end{
-    justify-content: flex-end;
   }
 
   .sm\:justify-center{
@@ -2511,15 +2498,6 @@ html {
   .sm\:gap-x-28{
     -moz-column-gap: 7rem;
          column-gap: 7rem;
-  }
-
-  .sm\:gap-x-7{
-    -moz-column-gap: 1.75rem;
-         column-gap: 1.75rem;
-  }
-
-  .sm\:gap-y-0{
-    row-gap: 0px;
   }
 
   .sm\:gap-y-10{
@@ -2561,11 +2539,6 @@ html {
     padding-right: 2rem;
   }
 
-  .sm\:py-4{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
   .sm\:py-6{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -2578,10 +2551,6 @@ html {
 
   .sm\:pl-5{
     padding-left: 1.25rem;
-  }
-
-  .sm\:pl-7{
-    padding-left: 1.75rem;
   }
 
   .sm\:text-3xl{
@@ -2740,13 +2709,13 @@ html {
     gap: 2rem;
   }
 
-  .md\:gap-y-0{
-    row-gap: 0px;
-  }
-
   .md\:gap-x-7{
     -moz-column-gap: 1.75rem;
          column-gap: 1.75rem;
+  }
+
+  .md\:gap-y-0{
+    row-gap: 0px;
   }
 
   .md\:rounded-lg{
@@ -2888,10 +2857,6 @@ html {
 
   .lg\:gap-60{
     gap: 15rem;
-  }
-
-  .lg\:gap-10{
-    gap: 2.5rem;
   }
 
   .lg\:px-36{
