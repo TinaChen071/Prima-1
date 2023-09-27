@@ -23,3 +23,31 @@ html{
 .mainMenu > li > a{
     display: block;
 }
+
+// logo carousel
+@keyframes carousel {
+    0% {
+      transform: translatex(0);
+    }
+    100% {
+      transform: translatex(-100%);
+    }
+  }
+  
+  .wrapper {
+    &:hover .carousel {
+      animation-play-state: paused;
+    }
+  }
+  
+  .carousel {
+    display: inline-block;
+    animation: 20s carousel infinite linear;
+  }
+  
+  .carousel__slide {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    margin: 0 40px;
+  }

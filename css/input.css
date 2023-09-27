@@ -25,6 +25,45 @@ html {
   display: block;
 }
 
+@-webkit-keyframes carousel {
+  0% {
+    -webkit-transform: translatex(0);
+            transform: translatex(0);
+  }
+  100% {
+    -webkit-transform: translatex(-100%);
+            transform: translatex(-100%);
+  }
+}
+
+@keyframes carousel {
+  0% {
+    -webkit-transform: translatex(0);
+            transform: translatex(0);
+  }
+  100% {
+    -webkit-transform: translatex(-100%);
+            transform: translatex(-100%);
+  }
+}
+.wrapper:hover .carousel {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.carousel {
+  display: inline-block;
+  -webkit-animation: 20s carousel infinite linear;
+          animation: 20s carousel infinite linear;
+}
+
+.carousel__slide {
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  margin: 0 40px;
+}
+
 @layer components {
   .horizon__center {
     @apply flex items-center justify-center;
