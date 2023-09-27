@@ -2,9 +2,17 @@
 module.exports = {
   content: ["./dist/*.{html,js}","*.html","./js/*.{html,js}","node_modules/preline/dist/*.js"],
   theme: {
+    // screens: {
+    //   'xs': '425px',
+    //   'sm': '640px',
+    //   'md': '768px',
+    //   'lg': '1024px',
+    //   'xl': '1280px',
+    //   '2xl': '1536px',
+    // },
     extend: {
       colors: {
-        'custom__primary': '#5F7B51',
+        'custom__primary': '#D02424',
         'custom__secondary': '#C6D292',
         'custom__third': '#F0F5E1',
         'custom__forth': '#D9ECB1',
@@ -12,7 +20,7 @@ module.exports = {
         'custom__brand': '#BB241D',
       },
       screens: {
-        'xs': '480px',
+        'xs': '480px'
       },
       spacing: {
         '128': '32rem',

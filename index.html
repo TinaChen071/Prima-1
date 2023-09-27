@@ -19,11 +19,15 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     
     
 </head>
 <body>
-
+  <!-- Main + Service Section -->
   <section id="bg1">
     <!-- Navbar -->
     <header class="sticky top-0 inset-x-0 flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full bg-white/50 backdrop-blur-md border-b border-gray-200 text-sm py-3 lg:py-0 ">
@@ -38,11 +42,11 @@
 
           <!-- 漢堡選單 -->
           <div class="md:hidden">
-            <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
-              <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-blue-500 text-gray-700 shadow-sm align-middle hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-500 transition-all text-sm " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+              <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="white" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
               </svg>
-              <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="white" viewBox="0 0 16 16">
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
               </svg>
             </button>
@@ -51,11 +55,11 @@
         
         <!-- 按鈕 -->
         <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
-          <div class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
+          <div class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7 sm:py-6">
             <!-- 首頁 -->
-            <a class="font-medium text-blue-500 sm:py-6" href="#" aria-current="page">首頁</a>
+            <a class="font-medium text-blue-500 " href="#" aria-current="page">首頁</a>
             <!-- 關於我們 -->
-            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] ">
               <button type="button" class="flex items-center w-full nav__BTN">
                 關於我們
                 <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -81,7 +85,7 @@
             <!-- 服務項目 -->
             <a class="nav__BTN" href="#">服務項目</a>
             <!-- 聯絡我們 -->
-            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] ">
               <button type="button" class="flex items-center w-full nav__BTN">
                 聯絡我們
                 <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -156,7 +160,7 @@
     <!-- Main div -->
     <div class="max-w-7xl w-full mx-auto md:px-4 lg:px-36 md:py-12 grid md:grid-cols-2 gap-20">
       <div class="my-auto hidden md:block">
-        <div class="grid grid-rows-2 gap-5 h-fit pb-16">
+        <div class="flex flex-col gap-5 pb-16">
           <h1 class="text-4xl">全方位個性化專業服務</h1>
           <p class="text-lg font-semibold text-sky-400">
             海空運承攬｜進出口整櫃/併箱｜貨物報關｜卡車運輸服務
@@ -178,13 +182,13 @@
         </div>
       </div>
       
-      <div id="controls-carousel" class="relative w-full " data-carousel="static">
+      <!-- Carousel -->
+      <div id="controls-carousel" class="relative w-full " data-carousel="slide">
         <!-- Searchbar -->
-        <div class="absolute z-100 left-1/2 transform -translate-x-1/2  h-full md:hidden flex items-center justify-center">
-          <div class="">
-            <label for="hs-trailing-button-add-on-with-icon-and-button" class="sr-only">Label</label>
-            <div class="relative flex rounded-md shadow-sm">
-              <input type="text" id="hs-trailing-button-add-on-with-icon-and-button" name="hs-trailing-button-add-on-with-icon-and-button" class="py-3 px-4 pl-11 block w-full border-gray-200 shadow-sm rounded-l-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="貨物查詢">
+        <div class="absolute z-100 h-full md:hidden flex items-center justify-center w-full">
+          <label for="hs-trailing-button-add-on-with-icon-and-button" class="sr-only">Label</label>
+            <div class="relative flex rounded-md shadow-sm min-w-fit xs:w-2/3">
+              <input type="text" id="hs-trailing-button-add-on-with-icon-and-button" name="hs-trailing-button-add-on-with-icon-and-button" class=" py-3 px-4 pl-11 block w-full border-gray-200 shadow-sm rounded-l-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="貨物查詢">
               <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none z-20 pl-4">
                 <svg class="h-4 w-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
@@ -192,7 +196,6 @@
               </div>
               <button type="button" class="py-3 px-4 inline-flex flex-shrink-0 justify-center items-center rounded-r-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:z-10 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all text-sm">查詢</button>
             </div>
-          </div>
         </div>
         <!-- Carousel wrapper -->
         <div class="relative h-56 overflow-hidden md:rounded-lg md:h-96">
@@ -218,7 +221,7 @@
             </div>
         </div>
         <!-- Slider controls -->
-        <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <button type="button" class="hidden absolute top-0 left-0 z-30 md:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
             <span class="inline-flex items-center justify-center w-10 h-10 rounded-full group-hover:bg-white/50 group-focus:outline-none transition duration-300 ease-in-out">
                 <svg class="w-4 h-4 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
@@ -226,7 +229,7 @@
                 <span class="sr-only">Previous</span>
             </span>
         </button>
-        <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <button type="button" class="hidden absolute top-0 right-0 z-30 md:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
             <span class="inline-flex items-center justify-center w-10 h-10 rounded-full group-hover:bg-white/50 group-focus:outline-none transition duration-300 ease-in-out">
                 <svg class="w-4 h-4 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
@@ -237,17 +240,225 @@
       </div>
     </div>
 
-    <!-- Service div -->
-    <div class="sm:px-36 sm:py-24">
+    <!-- Our Service div -->
+    <div class="max-w-7xl w-full mx-auto px-4 py-8 sm:px-6 lg:px-36 md:py-24 flex flex-col gap-6 lg:gap-16">
       <!-- Title -->
-      <div class="grid grid-rows-2 gap-3">
-        <p class="text-lg font-semibold text-blue-600">
+      <div class="flex flex-col gap-y-1 sm:gap-y-3">
+        <p class="text-sm md:text-lg font-semibold text-blue-600">
           Our Services
         </p>
-        <h1 class="text-4xl">全方位個性化專業服務</h1>
+        <h1 class="text-xl md:text-5xl">我們提供專業物流中轉服務</h1>
       </div>
 
       <!-- 服務項目 -->
+      <div class="flex flex-col sm:gap-28 items-center sm:px-6 gap-5">
+       <div class="grid grid-cols-2 justify-between w-full sm:gap-x-28 sm:gap-y-10 gap-y-5">
+         <!-- 海空運承攬 -->
+         <div class="flex flex-row gap-2 md:gap-8">
+          <!-- Icon -->
+          <div class="p-3 sm:p-4 h-fit rounded-lg sm:rounded-2xl bg-sky-300 shadow-md">
+            <i class="text-2xl sm:text-3xl text-white fa-solid fa-boxes-stacked"></i>
+          </div>
+          <!-- Text -->
+          <div class="flex flex-col gap-2 justify-center">
+            <p class="text-base sm:text-xl font-semibold">海空運承攬</p>
+            <p class="hidden sm:block text-gray-600">涵蓋來往世界各地的海空運進出口貨物，服務包括整櫃和併櫃，提供訂艙、報關、裝船等服務。</p>
+          </div>
+         </div>
+         <!-- 海空運承攬 -->
+         <div class="flex flex-row gap-2 md:gap-8">
+          <!-- Icon -->
+          <div class="p-3 sm:p-4 h-fit rounded-lg sm:rounded-2xl bg-sky-300 shadow-md">
+            <i class="text-2xl sm:text-3xl text-white fa-solid fa-boxes-stacked"></i>
+          </div>
+          <!-- Text -->
+          <div class="flex flex-col gap-2 justify-center">
+            <p class="text-base sm:text-xl font-semibold">海空運承攬</p>
+            <p class="hidden sm:block text-gray-600">涵蓋來往世界各地的海空運進出口貨物，服務包括整櫃和併櫃，提供訂艙、報關、裝船等服務。</p>
+          </div>
+         </div>
+         <!-- 海空運承攬 -->
+         <div class="flex flex-row gap-2 md:gap-8">
+          <!-- Icon -->
+          <div class="p-3 sm:p-4 h-fit rounded-lg sm:rounded-2xl bg-sky-300 shadow-md">
+            <i class="text-2xl sm:text-3xl text-white fa-solid fa-boxes-stacked"></i>
+          </div>
+          <!-- Text -->
+          <div class="flex flex-col gap-2 justify-center">
+            <p class="text-base sm:text-xl font-semibold">海空運承攬</p>
+            <p class="hidden sm:block text-gray-600">涵蓋來往世界各地的海空運進出口貨物，服務包括整櫃和併櫃，提供訂艙、報關、裝船等服務。</p>
+          </div>
+         </div>
+       </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cooperate Section -->
+  <section class="py-10 md:py-24 bg-sky-50 shadow-xl flex flex-col sm:gap-20" id="map">
+    <!-- Title -->
+    <div class="hidden md:flex flex-col gap-y-1 sm:gap-y-3 px-4 lg:px-36">
+      <p class="text-sm md:text-lg font-semibold text-blue-600">
+        Cooperate
+      </p>
+      <h1 class="text-xl md:text-5xl">合作夥伴</h1>
+    </div>
+
+    <!-- Logo Carousel -->
+    <div class="w-full mx-auto ">
+      <div class="owl-carousel owl-theme owl-loaded">
+        <div class="owl-stage-outer ">
+            <div class="owl-stage flex items-center">
+              <!-- logo 1 -->
+                <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+                  <div class="logo__img">
+                    <img src="img/logo1.png" alt="">
+                  </div>
+                  <p class="logo__text">長榮航空</p>
+                </div>
+                <!-- logo 1 -->
+                <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+                  <div class="logo__img">
+                    <img src="img/logo1.png" alt="">
+                  </div>
+                  <p class="logo__text">長榮航空</p>
+                </div>
+                <!-- logo 1 -->
+                <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+                  <div class="logo__img">
+                    <img src="img/logo1.png" alt="">
+                  </div>
+                  <p class="logo__text">長榮航空</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section class="section" id="bg2">
+    <!-- Title -->
+    <div class="flex justify-between items-end">
+      <!-- Title -->
+      <div class="flex flex-col gap-y-1 sm:gap-y-3">
+        <p class="text-sm md:text-lg font-semibold text-blue-600">
+          News
+        </p>
+        <h1 class="text-xl md:text-5xl">最新消息</h1>
+      </div>
+
+      <!-- More BTN -->
+      <a href="" class="flex gap-2 sm:gap-4 items-center group text-gray-900 hover:text-blue-500 transition duration-300 ease-in-out">
+        <p class="text-sm md:text-lg">
+          查看更多
+        </p>
+        <div class="relative right-0 group-hover:-right-1 ">
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </a>
+      
+    </div>
+
+    <!-- News Card -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-10 ">
+      <!-- Card 1 -->
+      <a href="#" class="newsCard__wrapper group transition duration-300 ease-in-out">
+        <div class="flex bg-white rounded-lg sm:rounded-xl">
+          <!-- img -->
+          <div class="w-2/5">
+            <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full">
+          </div>
+
+          <!-- Content -->
+          <div class="w-3/5 flex flex-col gap-3 p-4 sm:gap-4 sm:px-8 sm:py-8 bg-white">
+            <time class="text-xs font-semibold text-sky-400">
+              2023-10-01
+            </time>
+            <div class="flex flex-col gap-6">
+              <div class="flex flex-col gap-2">
+                <p class="text-lg md:tetx-xl  text-gray-900">
+                  財政部謝常務次長鈴媛，蒞臨本公司指導
+                </p>
+                <div class="">
+                  <p class=" line-clamp-2 text-gray-500">
+                    我們公司專注於海運快遞倉，公司以優良的軟硬體設備、嚴密的保全系統以及標準的作業流程，致力於提高效率提供客戶最佳的服務。透過創新科技與專業團隊，我們將持續優化服務品質，提升物流效率，以滿足客戶日益增長的需求。於此次參訪中，與貴賓共同探討業界最新趨勢及貨物安全，並交流合作共贏之道，攜手打造更璀璨的物流未來！
+                  </p>
+                </div>
+              </div>
+              
+              <button type="button" class="hidden sm:block button ">
+                閱讀更多
+              </button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- Card 1 -->
+      <a href="#" class="newsCard__wrapper group transition duration-300 ease-in-out">
+        <div class="flex bg-white rounded-lg sm:rounded-xl">
+          <!-- img -->
+          <div class="w-2/5">
+            <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full">
+          </div>
+
+          <!-- Content -->
+          <div class="w-3/5 flex flex-col gap-3 p-4 sm:gap-4 sm:px-8 sm:py-8 bg-white">
+            <time class="text-xs font-semibold text-sky-400">
+              2023-10-01
+            </time>
+            <div class="flex flex-col gap-6">
+              <div class="flex flex-col gap-2">
+                <p class="text-lg md:tetx-xl  text-gray-900">
+                  財政部謝常務次長鈴媛，蒞臨本公司指導
+                </p>
+                <div class="">
+                  <p class=" line-clamp-2 text-gray-500">
+                    我們公司專注於海運快遞倉，公司以優良的軟硬體設備、嚴密的保全系統以及標準的作業流程，致力於提高效率提供客戶最佳的服務。透過創新科技與專業團隊，我們將持續優化服務品質，提升物流效率，以滿足客戶日益增長的需求。於此次參訪中，與貴賓共同探討業界最新趨勢及貨物安全，並交流合作共贏之道，攜手打造更璀璨的物流未來！
+                  </p>
+                </div>
+              </div>
+              
+              <button type="button" class="hidden sm:block button ">
+                閱讀更多
+              </button>
+            </div>
+          </div>
+        </div>
+      </a>
+      <!-- Card 1 -->
+      <a href="#" class="newsCard__wrapper group transition duration-300 ease-in-out">
+        <div class="flex bg-white rounded-lg sm:rounded-xl">
+          <!-- img -->
+          <div class="w-2/5">
+            <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full">
+          </div>
+
+          <!-- Content -->
+          <div class="w-3/5 flex flex-col gap-3 p-4 sm:gap-4 sm:px-8 sm:py-8 bg-white">
+            <time class="text-xs font-semibold text-sky-400">
+              2023-10-01
+            </time>
+            <div class="flex flex-col gap-6">
+              <div class="flex flex-col gap-2">
+                <p class="text-lg md:tetx-xl  text-gray-900">
+                  財政部謝常務次長鈴媛，蒞臨本公司指導
+                </p>
+                <div class="">
+                  <p class=" line-clamp-2 text-gray-500">
+                    我們公司專注於海運快遞倉，公司以優良的軟硬體設備、嚴密的保全系統以及標準的作業流程，致力於提高效率提供客戶最佳的服務。透過創新科技與專業團隊，我們將持續優化服務品質，提升物流效率，以滿足客戶日益增長的需求。於此次參訪中，與貴賓共同探討業界最新趨勢及貨物安全，並交流合作共贏之道，攜手打造更璀璨的物流未來！
+                  </p>
+                </div>
+              </div>
+              
+              <button type="button" class="hidden sm:block button ">
+                閱讀更多
+              </button>
+            </div>
+          </div>
+        </div>
+      </a>
     </div>
   </section>
      
@@ -273,5 +484,30 @@
     AOS.init();
   </script>
       
+  <!-- Owl Carousel -->
+  <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js" data-cover></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:110,
+  // nav:true,
+  // center:true,
+  stagePadding:120,
+  items:3,
+  autoplay:true,
+  autoplayTimeout:1200,
+  autoplayHoverPause:true,
+  dots:false,
+  autoWidth:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:6
+      }
+  }
+})
+  </script>
 </body>
 </html>
