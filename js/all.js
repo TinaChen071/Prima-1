@@ -40,33 +40,28 @@ const backToTopBtn = document.getElementById('backToTopBtn');
   });
 
 // ToTop BTN 換顏色
-// Function to change button color when scrolling
 function updateButtonColor() {
   if (window.scrollY > 1800) {
     backToTopBtn.classList.remove('bg-blue-300', 'text-white');
-    backToTopBtn.classList.add('bg-white/50', 'text-white'); // Replace with desired color classes
+    backToTopBtn.classList.add('bg-white/50', 'text-white');
   } else {
     backToTopBtn.classList.remove('bg-white/50', 'text-white');
-    backToTopBtn.classList.add('bg-blue-300', 'text-white'); // Replace with initial color classes
+    backToTopBtn.classList.add('bg-blue-300', 'text-white');
   }
 }
 
-// Call the function on page load and when the user scrolls
 updateButtonColor();
 window.addEventListener('scroll', updateButtonColor);
 
 // 顯示狀態
-// Function to show/hide the button with a transition effect based on scroll position
 function toggleButtonVisibility() {
   if (window.scrollY > 200) {
     backToTopBtn.classList.remove('hidden');
     backToTopBtn.classList.add('opacity-100');
   } else {
     backToTopBtn.classList.remove('opacity-100');
-    // backToTopBtn.classList.add('hidden');
   }
 }
 
-// Call the function on page load and when the user scrolls
 toggleButtonVisibility();
 window.addEventListener('scroll', toggleButtonVisibility);
