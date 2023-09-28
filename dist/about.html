@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>關於我們</title>
+    <title>第一郵捷–全方位海空運規劃、進出口整櫃/併箱、貨物報關、卡車運輸服務</title>
 
     <!-- Main css -->
     <link rel="stylesheet" href="../output.css">
@@ -14,445 +14,432 @@
 
     <!-- favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.ico">
-
+    
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     
     
 </head>
 <body>
-
-  <!-- Mobile Navbar Start -->
-  <div class="sticky top-0 w-full bg-custom__third horizon__center md:hidden z-100" >
-    <header class=" flex flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full bg-custom__third text-sm py-4 dark:bg-gray-800" >
-      <nav class="max-w-[85rem] w-full mx-auto px-4 " aria-label="Global">
-
-        <!-- Menu BTN -->
-        <div class="relative flex items-center justify-between">
-          
+  <!-- Main + Service Section -->
+  <section id="bg1">
+    <!-- Navbar -->
+    <header class="sticky top-0 inset-x-0 flex flex-wrap lg:justify-start lg:flex-nowrap w-full bg-white/50 backdrop-blur-md border-b border-gray-200 text-sm py-3 lg:py-0 z-100">
+      <nav class="relative max-w-7xl w-full mx-auto px-4 md:flex md:items-center md:justify-between lg:px-36" aria-label="Global">
+        <!-- Logo & 漢堡選單 -->
+        <div class="flex items-center justify-between">
           <!-- Logo -->
-          <a href="../index.html" class="">
-            <div class="flex items-center gap-4">
-              <img src="../img/老吾老logo.png" class="h-10">
-              <p class="text-custom__brand font-medium text-xs sm:text-base whitespace-nowrap">新北市私立老吾老住宿長照機構</p>
-            </div>
+          <a class="" href="#" aria-label="Brand">
+            <img src="../img/Logo-L.png" class="hidden xl:block md:h-16 object-contain" alt="">
+            <img src="../img/Logo-S.png" class="xl:hidden h-10 object-contain" alt="">
           </a>
 
-          
+          <!-- 漢堡選單 -->
           <div class="md:hidden">
-            <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-custom__primary shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-custom__secondary transition-all text-sm " data-hs-collapse="#navbar-collapse-basic" aria-controls="navbar-collapse-basic" aria-label="Toggle navigation">
-
-              <!-- Open -->
-              <div class="hs-collapse-open:hidden w-4 h-4">
-                <i class="fa-solid fa-bars"></i>
-              </div>
-              
-              <!-- Close -->
-              <div class="hs-collapse-open:block hidden w-4 h-4">
-                <i class="fa-solid fa-xmark "></i>
-              </div>
-
+            <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-blue-500 text-gray-700 shadow-sm align-middle hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-500 transition-all text-sm " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+              <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+              </svg>
+              <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+              </svg>
             </button>
           </div>
         </div>
-    
-        <div id="navbar-collapse-basic" class="hidden basis-full grow">
-          <div class="flex flex-col gap-5 mt-5 ">
-            <!-- BTN 01 -->
-            <a class="mobileMenu__BTN" href="../dist/about.html" aria-current="page">關於我們</a>
-    
-            <!-- BTN 02 -->
-            <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
-              <button id="hs-mega-menu-basic-dr" type="button" class="flex items-center w-full mobileMenu__BTN">
-                鶯歌老吾老
+        
+        <!-- 按鈕 -->
+        <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
+          <div class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7 py-4">
+            <!-- 首頁 -->
+            <a class="font-medium text-blue-500 " href="#" aria-current="page">首頁</a>
+            <!-- 關於我們 -->
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] ">
+              <button type="button" class="flex items-center w-full nav__BTN">
+                關於我們
                 <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
                 </svg>
               </button>
-    
-              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 ">
-                <a class="mobileSub__BTN" href="../dist/news.html">
-                  最新消息
+
+              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
+                <a class="nav__SubBTN" href="#">
+                  公司介紹
                 </a>
-                <a class="mobileSub__BTN" href="../dist/activity.html">
-                  活動花絮
+
+                <a class="nav__SubBTN" href="#">
+                  關係企業
                 </a>
-                <a class="mobileSub__BTN" href="../dist/environment.html">
-                  環境介紹
-                </a>
-                <a class="mobileSub__BTN" href="../dist/service.html">
-                  服務介紹
-                </a>
-                <a class="mobileSub__BTN" href="../dist/pricing.html">
-                  收費標準
-                </a>
-                <a class="mobileSub__BTN" href="../dist/checkin.html">
-                  入住準備
+                <a class="nav__SubBTN" href="#">
+                  集團客戶
                 </a>
               </div>
             </div>
-    
-            <!-- BTN 03 -->
-            <a class="mobileMenu__BTN" href="../dist/features.html">我們的特色</a>
-
-            <!-- BTN 04 -->
-            <a class="mobileMenu__BTN" href="https://www.573583home.com/" target=”_blank”>老吾老成員</a>
-
-            <!-- BTN 05 -->
-            <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
-              <button id="hs-mega-menu-basic-dr" type="button" class="flex items-center w-full mobileMenu__BTN">
-                客服專區
+            <!-- 最新消息 -->
+            <a class="nav__BTN" href="#">最新消息</a>
+            <!-- 服務項目 -->
+            <a class="nav__BTN" href="#">服務項目</a>
+            <!-- 聯絡我們 -->
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] ">
+              <button type="button" class="flex items-center w-full nav__BTN">
+                聯絡我們
                 <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
                 </svg>
               </button>
-    
-              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-10 sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 ">
-                <a class="mobileSub__BTN" href="../dist/contact.html">
-                  聯絡我們
+
+              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
+                <a class="nav__SubBTN" href="#">
+                  服務時間
                 </a>
-                <a class="mobileSub__BTN" href="../dist/location.html">
+
+                <a class="nav__SubBTN" href="#">
                   交通位置
                 </a>
-                <a class="mobileSub__BTN" href="../dist/sexual-rule.html">
-                  性騷擾防治措施
+                <a class="nav__SubBTN" href="#">
+                  線上留言
                 </a>
-                <!-- <a class="mobileSub__BTN" href="#">
-                  FB 連結
-                </a> -->
               </div>
             </div>
 
+            <!-- 語言選擇 -->
+            <div class="flex items-center md:order-2">
+              <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-white rounded-full cursor-pointer bg-blue-500 hover:bg-blue-600 transition duration-300 ease-in-out">
+                <svg class="w-5 h-5 mr-2 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900"><path fill="#b22234" d="M0 0h7410v3900H0z"/><path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300"/><path fill="#3c3b6e" d="M0 0h2964v2100H0z"/><g fill="#fff"><g id="d"><g id="c"><g id="e"><g id="b"><path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/><use xlink:href="#a" y="420"/><use xlink:href="#a" y="840"/><use xlink:href="#a" y="1260"/></g><use xlink:href="#a" y="1680"/></g><use xlink:href="#b" x="247" y="210"/></g><use xlink:href="#c" x="494"/></g><use xlink:href="#d" x="988"/><use xlink:href="#c" x="1976"/><use xlink:href="#e" x="2470"/></g></svg>
+                English (US)
+              </button>
+              <!-- Dropdown -->
+              <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow " id="language-dropdown-menu">
+                <ul class="py-2 font-medium" role="none">
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
+                      <div class="inline-flex items-center">
+                        <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full mr-2" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 512 512"><g fill-rule="evenodd"><g stroke-width="1pt"><path fill="#bd3d44" d="M0 0h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/><path fill="#fff" d="M0 10h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/></g><path fill="#192f5d" d="M0 0h98.8v70H0z" transform="scale(3.9385)"/><path fill="#fff" d="M8.2 3l1 2.8H12L9.7 7.5l.9 2.7-2.4-1.7L6 10.2l.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7L74 8.5l-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 7.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 24.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 21.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 38.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 35.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 52.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 49.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 66.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 63.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9z" transform="scale(3.9385)"/></g></svg>              
+                        English (US)
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
+                      <div class="inline-flex items-center">
+                        <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 512 512"><path fill="#ffce00" d="M0 341.3h512V512H0z"/><path d="M0 0h512v170.7H0z"/><path fill="#d00" d="M0 170.7h512v170.6H0z"/></svg>
+                        Deutsch
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
+                      <div class="inline-flex items-center">
+                        <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 512 512"><g fill-rule="evenodd" stroke-width="1pt"><path fill="#fff" d="M0 0h512v512H0z"/><path fill="#009246" d="M0 0h170.7v512H0z"/><path fill="#ce2b37" d="M341.3 0H512v512H341.3z"/></g></svg>              
+                        Italiano
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
+                      <div class="inline-flex items-center">
+                        <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icon-css-cn" viewBox="0 0 512 512"><defs><path id="a" fill="#ffde00" d="M1-.3L-.7.8 0-1 .6.8-1-.3z"/></defs><path fill="#de2910" d="M0 0h512v512H0z"/><use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-121 142.6 -47) scale(25.5827)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-74 272.4 -114) scale(25.6137)" xlink:href="#a"/><use width="30" height="20" transform="matrix(16 -19.968 19.968 16 256 230.4)" xlink:href="#a"/></svg>
+                        中文 (繁體)
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
           </div>
         </div>
       </nav>
     </header>
-  </div>
-  <!-- Mobile Navbar End -->
 
-  
-  <!-- Document Wrapper -->
-  <section class=" ">
+    <!-- Banner -->
+    <div class="" id="banner1">
 
-    <!-- Slider Start -->
-    <div class="relative" id="slider">
-      <div class="">
-        <img src="../img/banner/分頁banner-1關於我們.jpg" alt="" class="sliderWrapper">
-        <!-- 波浪裝飾 -->
-        <div class="absolute md:hidden bottom-0">
-          <img src="../img/Flow2.png" alt="" class="w-full md:bg-custom__third">
+    </div>
+
+    
+  </section>
+
+  <!-- Cooperate Section -->
+  <section class="py-10 md:py-24 bg-sky-50 shadow-xl flex flex-col sm:gap-20" id="map">
+    <!-- Title -->
+    <div class="hidden md:flex flex-col gap-y-1 sm:gap-y-3 px-4 lg:px-36 max-w-7xl w-full mx-auto">
+      <p class="text-sm md:text-lg font-semibold text-blue-600">
+        Cooperate
+      </p>
+      <h1 class="text-xl md:text-5xl">合作夥伴</h1>
+    </div>
+
+    <!-- Logo Carousel -->
+    <div class="w-full mx-auto ">
+      <div class="owl-carousel owl-theme owl-loaded owl-lazy">
+        <div class="owl-stage-outer ">
+            <div class="owl-stage flex items-center">
+              <!-- logo 1 -->
+              <div class="owl-item px-6 sm:px-16 w-24 flex flex-col items-center gap-2 group/item">
+                <div class="logo__img">
+                  <img src="img/logo1.png" alt="">
+                </div>
+                <p class="logo__text">長榮航空</p>
+              </div>
+              <!-- logo 1 -->
+              <div class="owl-item px-6 sm:px-16 w-24 flex flex-col items-center gap-2 group/item">
+                <div class="logo__img">
+                  <img src="img/logo1.png" alt="">
+                </div>
+                <p class="logo__text">長榮航空</p>
+              </div>
+              <!-- logo 1 -->
+              <div class="owl-item px-6 sm:px-16 w-24 flex flex-col items-center gap-2 group/item">
+                <div class="logo__img">
+                  <img src="img/logo1.png" alt="">
+                </div>
+                <p class="logo__text">長榮航空</p>
+              </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+
+    <!-- <div class='overflow-hidden wrapper'>
+      <div class='carousel grid grid-cols-6 gap-12'>
+        <div class='inline-block'>
+          
+          <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+            <div class="logo__img">
+              <img src="img/logo1.png" alt="">
+            </div>
+            <p class="logo__text">長榮航空</p>
+          </div>
+        </div>
+        <div class='inline-block'>
+          
+          <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+            <div class="logo__img">
+              <img src="img/logo1.png" alt="">
+            </div>
+            <p class="logo__text">長榮航空</p>
+          </div>
+        </div>
+        <div class='inline-block'>
+          
+          <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+            <div class="logo__img">
+              <img src="img/logo1.png" alt="">
+            </div>
+            <p class="logo__text">長榮航空</p>
+          </div>
+        </div>
+        <div class='inline-block'>
+          
+          <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+            <div class="logo__img">
+              <img src="img/logo1.png" alt="">
+            </div>
+            <p class="logo__text">長榮航空</p>
+          </div>
+        </div>
+        <div class='inline-block'>
+          
+          <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+            <div class="logo__img">
+              <img src="img/logo1.png" alt="">
+            </div>
+            <p class="logo__text">長榮航空</p>
+          </div>
         </div>
       </div>
-      
+    </div> -->
+  </section>
 
-      <!-- Content Section Start -->
-      <div class="absolute bottom-0  w-full z-10">
+  <!-- News Section -->
+  <section id="bg2">
+    <div class="section">
+      <!-- Title -->
+      <div class="flex justify-between items-end">
+        <!-- Title -->
+        <div class="flex flex-col gap-y-1 sm:gap-y-3">
+          <p class="text-sm md:text-lg font-semibold text-blue-600">
+            News
+          </p>
+          <h1 class="text-xl md:text-5xl">最新消息</h1>
+        </div>
 
-        <!-- Navbar Section Start -->
-        <section class="hidden md:block z-10 " id="nav">
-
-          <!-- 波浪裝飾 -->
-          <div class="">
-            <img src="../img/Flow1.png" alt="" class="w-full">
+        <!-- More BTN -->
+        <a href="" class="flex gap-2 sm:gap-4 items-center group text-gray-900 hover:text-blue-500 transition duration-300 ease-in-out">
+          <p class="text-sm md:text-lg">
+            查看更多
+          </p>
+          <div class="relative right-0 group-hover:-right-1 ">
+            <i class="fa-solid fa-arrow-right-long"></i>
           </div>
+        </a>
+        
+      </div>
 
-          <!-- Nav -->
-          <div class="relative bg-custom__third pt-4" >
+      <!-- News Card -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-10 ">
+        <!-- Card 1 -->
+        <a href="#" class="newsCard__wrapper group transition duration-300 ease-in-out">
+          <div class="flex bg-white rounded-lg sm:rounded-xl">
+            <!-- img -->
+            <div class="w-2/5">
+              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full">
+            </div>
 
-            <!-- Logo -->
-            <a href="../index.html" class="vertical__center z-20 bottom-full">
-              <img src="../img/老吾老logo.png" class="h-16">
-            </a>
-
-            <!-- Menu -->
-            <header class="relative flex flex-wrap sm:justify-center sm:flex-nowrap z-50 w-full  text-sm " >
-              <!-- 名稱 -->
-              <div class="hidden md:block absolute inset-y-0 left-1/20 -top-12 text-custom__brand font-medium">
-                <p class=" whitespace-nowrap">老吾老長照社團法人附設</p>
-                <p class="text-lg whitespace-nowrap">新北市私立老吾老住宿長照機構</p>
-              </div>
-              <!-- Nav -->
-              <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between z-100" aria-label="Global">
-            
-                <div id="navbar-collapse-basic" class="hidden basis-full grow sm:block">
-                  <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-center sm:mt-0 sm:pl-5">
-                    
-                    <!-- BTN 01 -->
-                    <a class="webMenu__BTN" href="../dist/about.html" aria-current="page">關於我們</a>
-            
-                    <span class="text-custom__primary">/</span>
-
-                    <!-- BTN 02 -->
-                    <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
-                      <button id="hs-mega-menu-basic-dr" type="button" class="flex items-center w-full webMenu__BTN">
-                        鶯歌老吾老
-                        <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                        </svg>
-                      </button>
-            
-                      <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden  sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 ">
-                        <!-- 01 -->
-                        <a class="webSub__BTN" href="../dist/news.html">
-                          最新消息
-                        </a>
-                        <!-- 02 -->
-                        <a class="webSub__BTN" href="../dist/activity.html">
-                          活動花絮
-                        </a>
-                        <!-- 03 -->
-                        <a class="webSub__BTN" href="../dist/environment.html">
-                          環境介紹
-                        </a>
-                        <!-- 04 -->
-                        <a class="webSub__BTN" href="../dist/service.html">
-                          服務介紹
-                        </a>
-                        <!-- 05 -->
-                        <a class="webSub__BTN" href="../dist/pricing.html">
-                          收費標準
-                        </a>
-                        <!-- 06 -->
-                        <a class="webSub__BTN" href="../dist/checkin.html">
-                          入住準備
-                        </a>
-                      </div>
-                    </div>
-            
-                    <span class="text-custom__primary">/</span>
-
-                    <!-- BTN 03 -->
-                    <a class="webMenu__BTN" href="../dist/features.html" aria-current="page">我們的特色</a>
-
-                    <span class="text-custom__primary">/</span>
-
-                    <!-- BTN 04 -->
-                    <a class="webMenu__BTN" href="https://www.573583home.com/" aria-current="page" target=”_blank”>老吾老成員</a>
-
-                    <span class="text-custom__primary">/</span>
-
-                    <!-- BTN 05 -->
-                    <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:hover]">
-                      <button id="hs-mega-menu-basic-dr" type="button" class="flex items-center w-full webMenu__BTN">
-                        客服專區
-                        <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                        </svg>
-                      </button>
-            
-                      <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden  sm:mt-3 bg-white sm:shadow-md rounded-lg p-2 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 ">
-                        <!-- 01 -->
-                        <a class="webSub__BTN" href="../dist/contact.html">
-                          聯絡我們
-                        </a>
-                        <!-- 02 -->
-                        <a class="webSub__BTN" href="../dist/location.html">
-                          交通位置
-                        </a>
-                        <!-- 03 -->
-                        <a class="webSub__BTN" href="../dist/sexual-rule.html">
-                          性騷擾防治措施
-                        </a>
-                        <!-- 04 -->
-                        <!-- <a class="webSub__BTN" href="#">
-                          FB 連結
-                        </a> -->
-                      </div>
-                    </div>
+            <!-- Content -->
+            <div class="w-3/5 flex flex-col gap-3 p-4 sm:gap-4 sm:px-8 sm:py-8 bg-white">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-10-01
+              </time>
+              <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-2">
+                  <p class="text-lg md:tetx-xl  text-gray-900">
+                    財政部謝常務次長鈴媛，蒞臨本公司指導
+                  </p>
+                  <div class="">
+                    <p class=" line-clamp-2 text-gray-500">
+                      我們公司專注於海運快遞倉，公司以優良的軟硬體設備、嚴密的保全系統以及標準的作業流程，致力於提高效率提供客戶最佳的服務。透過創新科技與專業團隊，我們將持續優化服務品質，提升物流效率，以滿足客戶日益增長的需求。於此次參訪中，與貴賓共同探討業界最新趨勢及貨物安全，並交流合作共贏之道，攜手打造更璀璨的物流未來！
+                    </p>
                   </div>
                 </div>
-              </nav>
-            </header>
+                
+                <button type="button" class="hidden sm:block button ">
+                  閱讀更多
+                </button>
+              </div>
+            </div>
           </div>
+        </a>
+        <!-- Card 2 -->
+        <a href="#" class="newsCard__wrapper group transition duration-300 ease-in-out">
+          <div class="flex bg-white rounded-lg sm:rounded-xl">
+            <!-- img -->
+            <div class="w-2/5">
+              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full">
+            </div>
 
-        </section>
-        <!-- Navbar Section End -->
-
-      </div>
-      <!-- Content Section End -->
-
-    </div>
-    <!-- Slider End -->
-
-    <!-- Info Section Start -->
-    <section class=" w-full z-30 sm:z-0 " id="bg">
-          
-      <!-- 波浪裝飾 -->
-      <div class="">
-        <img src="../img/Flow2.png" alt="" class="w-full md:bg-custom__third">
-      </div>
-
-      <!-- 內容區塊 -->
-      <div class="mb-16" >
-        <div class="section flex flex-col gap-10 md:gap-16">
-
-          <!-- Breadcrumbs -->
-          <nav class="flex" aria-label="Breadcrumb">
-            <ol role="list" class="flex items-center space-x-4">
-              <li>
-                <div>
-                  <a href="../index.html" class="breadcrumb--default">
-                    <i class="fa-solid fa-house"></i>
-                  </a>
+            <!-- Content -->
+            <div class="w-3/5 flex flex-col gap-3 p-4 sm:gap-4 sm:px-8 sm:py-8 bg-white">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-10-01
+              </time>
+              <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-2">
+                  <p class="text-lg md:tetx-xl  text-gray-900">
+                    財政部謝常務次長鈴媛，蒞臨本公司指導
+                  </p>
+                  <div class="">
+                    <p class=" line-clamp-2 text-gray-500">
+                      我們公司專注於海運快遞倉，公司以優良的軟硬體設備、嚴密的保全系統以及標準的作業流程，致力於提高效率提供客戶最佳的服務。透過創新科技與專業團隊，我們將持續優化服務品質，提升物流效率，以滿足客戶日益增長的需求。於此次參訪中，與貴賓共同探討業界最新趨勢及貨物安全，並交流合作共贏之道，攜手打造更璀璨的物流未來！
+                    </p>
+                  </div>
                 </div>
-              </li>
-              <li>
-                <div class="flex items-center">
-                  <svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-                  </svg>
-                  <a href="#" class="ml-4 breadcrumb--active ">關於我們</a>
+                
+                <button type="button" class="hidden sm:block button ">
+                  閱讀更多
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- Card 3 -->
+        <a href="#" class="newsCard__wrapper group transition duration-300 ease-in-out">
+          <div class="flex bg-white rounded-lg sm:rounded-xl">
+            <!-- img -->
+            <div class="w-2/5">
+              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full">
+            </div>
+
+            <!-- Content -->
+            <div class="w-3/5 flex flex-col gap-3 p-4 sm:gap-4 sm:px-8 sm:py-8 bg-white">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-10-01
+              </time>
+              <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-2">
+                  <p class="text-lg md:tetx-xl  text-gray-900">
+                    財政部謝常務次長鈴媛，蒞臨本公司指導
+                  </p>
+                  <div class="">
+                    <p class=" line-clamp-2 text-gray-500">
+                      我們公司專注於海運快遞倉，公司以優良的軟硬體設備、嚴密的保全系統以及標準的作業流程，致力於提高效率提供客戶最佳的服務。透過創新科技與專業團隊，我們將持續優化服務品質，提升物流效率，以滿足客戶日益增長的需求。於此次參訪中，與貴賓共同探討業界最新趨勢及貨物安全，並交流合作共贏之道，攜手打造更璀璨的物流未來！
+                    </p>
+                  </div>
                 </div>
-              </li>
-              
-            </ol>
-          </nav>
-
-          <!-- 標題 -->
-          <div class="sectionTitle__Wrapper">
-            <h2>關於我們</h2>
-            <hr class="border-b border-custom__primary">
-            <h2>ABOUT US</h2>
-          </div>
-          
-          <!-- 標語 -->
-          <div class="relative w-fit mx-auto" data-aos="flip-up">
-            <i class="absolute -top-3 left-3 text-3xl text-custom__secondary fa-solid fa-quote-left"></i>
-            <p class="bg-custom__primary px-8 py-4 rounded-xl text-center text-xl md:text-2xl text-white">
-            老吾老的LOGO是全體的精神象徵指標。
-            <br>
-            設計概念是發想於古象形文字「老」字。
-            </p>
-            <i class="absolute -bottom-3 right-3 text-3xl text-custom__secondary fa-solid fa-quote-right"></i>
-          </div>
-
-          <!-- 影片 -->
-          <!-- <iframe class="hidden img__frame__big"
-            src="https://www.youtube.com/embed/e909dIebN-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-          </iframe> -->
-
-          <!-- 內文 -->
-          <div class="text-gray-700  text-xl md:text-2xl text-center">
-            <p>所謂《老吾老》者：乃從敬愛、關懷與照顧自家長輩的態度與精神出發，進而延伸到普天下的長輩們。
-              <br>
-              <br>
-              我們秉持這樣的一貫精神，讓所有入住「老吾老」的長者們在我們專業護理、完整照護及細心、愛心、耐心全方位照顧下，皆能感受到如在家中的親情溫暖更勝家中的舒適與安全。
-            </p>
-          </div>
-
-          <!-- 說明 -->
-          <div class="rounded-3xl overflow-hidden flex flex-col bg-white shadow-lg border-2 border-gray-100" data-aos="zoom-in">
-
-            <!-- 01 -->
-            <div class="flex px-6 py-2 md:px-16 md:py-4 gap-4 md:gap-8 border-b-2 border-gray-200">
-                <img src="../img/logo1.png" alt="" class="w-16 md:w-fit">
-                <p class="my-auto text-xl md:text-2xl text-custom__primary font-semibold">古象形文字的「老」字，代表男性長輩</p>
+                
+                <button type="button" class="hidden sm:block button ">
+                  閱讀更多
+                </button>
+              </div>
             </div>
-            <!-- 02 -->
-            <div class="flex px-6 py-2 md:px-16 md:py-4 gap-4 md:gap-8 border-b-2 border-gray-200">
-                <img src="../img/logo2.png" alt="" class="w-16 md:w-fit">
-                <p class="my-auto text-xl md:text-2xl text-custom__primary font-semibold">老字外圍加上花瓣代表女性長輩</p>
-            </div>
-            <!-- 03 -->
-            <div class="flex px-6 py-2 md:px-16 md:py-4 gap-4 md:gap-8 border-b-2 border-gray-200">
-                <img src="../img/logo3.png" alt="" class="w-16 md:w-fit">
-                <p class="my-auto text-xl md:text-2xl text-custom__primary font-semibold">左下角圖騰，象徵「支撐」「倚靠」「信賴」的意思</p>
-            </div>
-            <!-- 04 -->
-            <div class="flex px-6 py-2 md:px-16 md:py-4 gap-4 md:gap-8 border-b-2 border-gray-200">
-                <img src="../img/logo4.png" alt="" class="w-16 md:w-fit">
-                <p class="my-auto text-xl md:text-2xl text-custom__primary font-semibold">外圈大圓代表「圓滿」，象徵著圓滿和諧的大家庭</p>
-            </div>
-            <!-- 05 -->
-            <div class="flex px-6 py-2 md:px-16 md:py-4 gap-4 md:gap-8 ">
-                <img src="../img/logo5.png" alt="" class="w-16 md:w-fit">
-                <p class="my-auto text-xl md:text-2xl text-custom__primary font-semibold">整體意涵：老吾老是所有長輩(男女)們，可以倚靠、信賴，值得放心託付的大家園</p>
-            </div>
-
           </div>
-
-          
-        </div>
-      </div>
-
-    </section>
-    <!-- Info Section End -->
-
-   <!-- Footer Start --> 
-   <footer class="relative bg-custom__third">
-
-    <!-- To top BTN -->
-    <button type="button" onclick="topFunction()" class="toTop__BTN" id="toTop">
-      <i class="fa-solid fa-arrow-up"></i>
-      <p>Top</p>
-    </button>
-
-    <!-- 波浪裝飾 -->
-    <div class="">
-      <img src="../img/Flow4.png" alt="" class="w-full bg-white">
-    </div>
-
-    <!-- Content -->
-    <div class="section font-semibold ">
-      <div class="flex flex-col sm:flex-row gap-4  sm:gap-16 items-center justify-between">
-
-        <!-- Logo -->
-        <div class="flex flex-col gap-2 items-center">
-          <a href="#" class="">
-            <img src="../img/老吾老logo.png" class="mx-auto w-4/5 md:w-2/3">
-          </a>
-          <!-- 名稱 -->
-          <div class="text-custom__primary text-center  md:text-base">
-            <p class="text-sm whitespace-nowrap">老吾老長照社團法人附設</p>
-            <p class="text-sm whitespace-nowrap">新北市私立老吾老住宿長照機構</p>
-          </div>
-        </div>
-
-        <!-- 聯絡資訊 -->
-        <div class="text-custom__primary text-sm md:text-base flex flex-col gap-2 md:gap-4  justify-between">
-
-          <!-- 電話 -->
-          <div class="flex gap-2">
-            <i class="fa-solid fa-phone my-auto"></i>
-            <p class="font-medium">(02)8677-1760</p>
-          </div>
-
-          <!-- 信箱 -->
-          <div class="flex gap-2">
-            <i class="fa-solid fa-envelope my-auto"></i>
-            <p class="font-medium">cc91273606@yahoo.com.tw</p>
-          </div>
-
-          <!-- 地址 -->
-          <div class="flex gap-2">
-            <i class="fa-solid fa-location-dot my-auto"></i>
-            <p class="font-medium whitespace-nowrap">新北市鶯歌區建國路405巷11號</p>
-          </div>
-
-        </div>
-
-        <!-- Menu -->
-        <div class="hidden md:block ">
-          <div class="grid md:grid-cols-2  xl:grid-cols-5 gap-4 text-custom__primary">
-            <a href="../dist/about.html" class="footer__menu">關於我們</a>
-            <a href="../dist/news.html" class="footer__menu">鶯歌老吾老</a>
-            <a href="../dist/features.html" class="footer__menu">我們的特色</a>
-            <a href="https://www.573583home.com/" class="footer__menu" target=”_blank”>老吾老成員</a>
-            <a href="../dist/contact.html" class="footer__menu">客服專區</a>
-            
-          </div>
-        </div>
+        </a>
       </div>
     </div>
-
-    <!-- Copyright -->
-    <div class="border-t border-custom__secondary py-2 md:py-4 text-center">
-      <p class="text-sm md:text-base text-custom__primary font-semibold">&copy; 2023 老吾老長照社團法人.</p>
-    </div>
-   </footer>
-   <!-- Footer End -->
-
   </section>
+
+  <!-- Footer Section -->
+  <footer class=" bg-blue-900 text-white ">
+    <!-- Content -->
+    <div class="section md:py-16">
+      <div class="grid md:grid-cols-2  items-end">
+        <!-- Logo -->
+        <div class="flex flex-col gap-6 md:gap-12 horizon__center md:items-start justify-start">
+          <!-- Logo -->
+          <a class="w-2/5 md:w-2/3" href="#" >
+            <img src="../img/Logo-white.png" class="w-full h-full object-contain" alt="">
+          </a>
+          <!-- 按鈕 -->
+          <div class="grid grid-cols-4 justify-around gap-4 md:gap-8 text-center w-fit">
+            <a href="" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">關於我們
+            </a>
+            <a href="" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">最新消息
+            </a>
+            <a href="" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">服務項目
+            </a>
+            <a href="" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">聯絡我們
+            </a>
+          </div>
+        </div>
+    
+        <!-- Location -->
+        <div class="hidden md:flex gap-6 w-2/3 justify-self-end">
+          <i class="fa-solid fa-location-dot text-4xl text-blue-300"></i>
+          <div class="flex flex-col gap-2">
+            <p class="text-lg font-semibold text-blue-300">Our Location</p>
+            <p>
+              330010 桃園市桃園區同安里同德六街89號3樓
+            </p>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+
+  
+    <div class="horizon__center py-4 px-4 border-t border-white text-center text-xs md:text-sm">
+      <p>
+        © 2023 第一郵捷國際物流股份有限公司&nbsp;  
+      </p>
+      <p class="hidden sm:block">
+        - All Rights Reserved
+      </p>
+    </div>
+  </footer>
+
+ <!-- To Top BTN -->
+  <button class="fixed right-4 bottom-4 xs:right-8 xs:bottom-8 bg-blue-300 text-white  hover:bg-blue-400  transition-all duration-600 border-2 border-white rounded-full opacity-0 hidden z-100 shadow-md" id="backToTopBtn">
+    <div class="px-4 py-3 text-sm xs:text-base">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+  </button>
      
       
 
@@ -462,6 +449,7 @@
 
   <!-- Preline -->
   <script src="../node_modules/preline/dist/preline.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 
   <!-- Swiper -->
   <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
@@ -475,5 +463,32 @@
     AOS.init();
   </script>
       
+  <!-- Owl Carousel -->
+  <!-- <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js" data-cover></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:0,
+  // nav:true,
+  // center:true,
+  lazyLoad:true,
+  stagePadding:120,
+  items:3,
+  autoplay:true,
+  autoplayTimeout:1200,
+  autoplayHoverPause:true,
+  dots:false,
+  autoWidth:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:6
+      }
+  }
+})
+  </script>
 </body>
 </html>

@@ -9,10 +9,10 @@
         @apply max-w-7xl w-full mx-auto px-4 py-8 sm:px-6 lg:px-36 md:py-24 gap-6 lg:gap-16 flex flex-col
     }
     .nav__BTN {
-        @apply font-medium text-gray-900 hover:text-blue-500 
+        @apply font-medium text-gray-600 hover:text-blue-500 
     }
     .nav__SubBTN {
-        @apply flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 
+        @apply flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-600 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 
     }
     .logo__img {
         @apply w-16 sm:w-24 grayscale group-hover/item:grayscale-0 transition duration-150 ease-in-out
@@ -53,4 +53,8 @@
 #map {
     background-image: url(img/map.png); 
     @apply bg-no-repeat bg-cover w-full bg-center;
+}
+#banner1 {
+    background-image: url(img/banner1.png);
+    @apply bg-cover bg-fixed bg-center bg-no-repeat h-40 md:h-96;
 }
