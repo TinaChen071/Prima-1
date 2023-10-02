@@ -57,7 +57,7 @@ window.addEventListener('scroll', updateButtonColor);
 function toggleButtonVisibility() {
   if (window.scrollY > 200) {
     backToTopBtn.classList.remove('hidden');
-    backToTopBtn.classList.add('opacity-100');
+    backToTopBtn.classList.add('opacity-100','transition', 'duration-300');
   } else {
     backToTopBtn.classList.remove('opacity-100');
   }
