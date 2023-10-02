@@ -2521,6 +2521,10 @@ html {
     width: 100%;
   }
 
+  .sm\:w-2\/3{
+    width: 66.666667%;
+  }
+
   .sm\:max-w-5xl{
     max-width: 64rem;
   }
