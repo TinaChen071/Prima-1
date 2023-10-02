@@ -2586,6 +2586,11 @@ html {
     padding-right: 2.5rem;
   }
 
+  .sm\:py-6{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
   .sm\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
