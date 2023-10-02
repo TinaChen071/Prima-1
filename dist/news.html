@@ -158,13 +158,14 @@
     </header>
 
     <!-- Banner -->
-    <div class="" id="banner1"></div>
+    <div class="" id="banner4"></div>
 
   </section>
 
   <!-- News Section -->
   <section id="bg3">
     <div class="section">
+
       <!-- Title -->
       <div class="flex justify-between items-end">
         <!-- Title -->
@@ -175,15 +176,25 @@
           <h1 class="text-xl md:text-5xl">最新消息</h1>
         </div>
 
-        <!-- More BTN -->
-        <a href="" class="flex gap-2 sm:gap-4 items-center group text-gray-900 hover:text-blue-500 transition duration-300 ease-in-out">
-          <p class="text-sm md:text-lg">
-            查看更多
-          </p>
-          <div class="relative right-0 group-hover:-right-1 ">
-            <i class="fa-solid fa-arrow-right-long"></i>
+        <!-- 篩選 BTN -->
+        <div class="hs-dropdown relative inline-flex">
+          <button id="hs-dropdown-default" type="button" class="hs-dropdown-toggle py-2 px-3 sm:py-3 sm:px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm ">
+            全部
+            <svg class="hs-dropdown-open:rotate-180 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+        
+          <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] hs-dropdown-open:opacity-100 opacity-0 hidden z-10 mt-2 min-w-[8rem] bg-white shadow-md rounded-lg p-2 " aria-labelledby="hs-dropdown-default">
+            <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 " href="#">
+              由新至舊
+            </a>
+            <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 " href="#">
+              由舊至新
+            </a>
+            
           </div>
-        </a>
+        </div>
         
       </div>
 
@@ -286,6 +297,22 @@
           </div>
         </a>
       </div>
+
+      <!-- Pagination -->
+      <nav class="flex justify-center items-center space-x-2">
+        <a class="pagination gap-2 rounded-md" href="#">
+          <i class="fa-solid fa-chevron-left"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="w-10 h-10 bg-sky-300 text-white p-4 inline-flex items-center text-sm font-medium rounded-full transition-all" href="#" aria-current="page">1</a>
+        <a class="w-10 h-10 pagination text-sm font-medium rounded-full" href="#">2</a>
+        <a class="w-10 h-10 pagination text-sm font-medium rounded-full" href="#">3</a>
+        <a class="pagination gap-2 rounded-md" href="#">
+          <span class="sr-only">Next</span>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
+      </nav>
+
     </div>
   </section>
 

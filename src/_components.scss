@@ -29,6 +29,9 @@
     .toTop__BTN {
         @apply vertical__center  text-center text-sm md:text-base bg-custom__primary hover:bg-gray-900 transition duration-150 ease-out hover:ease-in rounded-full text-white px-3 py-1 md:px-5 md:py-2 -top-2 md:top-5 lg:top-10
     }
+    .pagination {
+        @apply text-gray-600 hover:text-sky-300 p-4 inline-flex items-center transition-all
+    }
     
 
 }
@@ -59,10 +62,18 @@
     @apply bg-no-repeat bg-cover w-full bg-center;
 }
 #banner1 {
-    background-image: url(img/banner2.png);
+    background-image: url(img/banner1.png);
     @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-40 sm:h-64 md:h-96;
 }
 #banner2 {
+    background-image: url(img/banner2.png);
+    @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-40 sm:h-64 md:h-96;
+}
+#banner3 {
     background-image: url(img/banner3.png);
+    @apply bg-cover md:bg-fixed bg-top bg-no-repeat h-40 sm:h-64 md:h-96;
+}
+#banner4 {
+    background-image: url(img/banner4.png);
     @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-40 sm:h-64 md:h-96;
 }
