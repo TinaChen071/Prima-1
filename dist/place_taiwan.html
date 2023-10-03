@@ -167,57 +167,100 @@
     <div class="section">
       <!-- 地區 Tab -->
       <nav class="relative z-0 flex border rounded-lg overflow-hidden shadow-md" aria-label="Tabs" role="tablist">
-        <button type="button" class="tab active" id="bar-with-underline-item-1" data-hs-tab="#bar-with-underline-1" aria-controls="bar-with-underline-1" role="tab">
+        <button type="button" class="tab border-r active" id="bar-with-underline-item-1" data-hs-tab="#bar-with-underline-1" aria-controls="bar-with-underline-1" role="tab">
           台灣地區
         </button>
         <button type="button" class="tab border-r" id="bar-with-underline-item-2" data-hs-tab="#bar-with-underline-2" aria-controls="bar-with-underline-2" role="tab">
           香港地區
         </button>
-        <button type="button" class="tab border-r" id="bar-with-underline-item-2" data-hs-tab="#bar-with-underline-2" aria-controls="bar-with-underline-2" role="tab">
+        <button type="button" class="tab border-r" id="bar-with-underline-item-3" data-hs-tab="#bar-with-underline-3" aria-controls="bar-with-underline-3" role="tab">
           中國地區
         </button>
-        <button type="button" class="tab border-r" id="bar-with-underline-item-2" data-hs-tab="#bar-with-underline-2" aria-controls="bar-with-underline-2" role="tab">
+        <button type="button" class="tab border-r" id="bar-with-underline-item-4" data-hs-tab="#bar-with-underline-4" aria-controls="bar-with-underline-4" role="tab">
           越南地區
         </button>
-        <button type="button" class="tab" id="bar-with-underline-item-3" data-hs-tab="#bar-with-underline-3" aria-controls="bar-with-underline-3" role="tab">
+        <button type="button" class="tab" id="bar-with-underline-item-5" data-hs-tab="#bar-with-underline-5" aria-controls="bar-with-underline-5" role="tab">
           印尼地區
         </button>
       </nav>
       
       <!-- 內容 -->
       <div class="">
-        <!-- Content 1 -->
-        <div id="bar-with-underline-1" role="tabpanel" aria-labelledby="bar-with-underline-item-1" class="grid sm:grid-cols-2 gap-6 sm:gap-10">
-          <div>
-            <img src="../img/taiwan.png" alt="" class="w-1/2 sm:w-2/3 mx-auto">
-          </div>
-
-          <div class="flex flex-col gap-2 sm:gap-3">
-
-            <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
-              <i class="fa-solid fa-location-dot"></i>
-              <p>台北市 Taipei</p>
+        <!-- Taiwan -->
+        <div id="bar-with-underline-1" role="tabpanel" aria-labelledby="bar-with-underline-item-1">
+          <div class="grid sm:grid-cols-2 gap-6 sm:gap-10">
+            <!-- Img -->
+            <div>
+              <img src="../img/Taiwan.png" alt="" class="w-1/2 sm:w-2/3 mx-auto">
             </div>
 
-            <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
-              <p>
-                Tel : 886-2500-7189
-              </p>
-              <p>
-                Fax : 886-2-2500-6389
-              </p>
+            <!-- Content -->
+            <div class="flex flex-col gap-2 sm:gap-3">
+
+              <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>台北市 Taipei</p>
+              </div>
+
+              <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
+                <p>
+                  Tel : 886-2500-7189
+                </p>
+                <p>
+                  Fax : 886-2-2500-6389
+                </p>
+              </div>
             </div>
           </div>
         </div>
+        <!-- Hongkong -->
         <div id="bar-with-underline-2" class="hidden" role="tabpanel" aria-labelledby="bar-with-underline-item-2">
           <p class="text-gray-500 dark:text-gray-400">
             This is the <em class="font-semibold text-gray-800 dark:text-gray-200">second</em> item's tab body.
           </p>
         </div>
+        <!-- China -->
         <div id="bar-with-underline-3" class="hidden" role="tabpanel" aria-labelledby="bar-with-underline-item-3">
-          <p class="text-gray-500 dark:text-gray-400">
-            This is the <em class="font-semibold text-gray-800 dark:text-gray-200">third</em> item's tab body.
-          </p>
+           <div class="grid sm:grid-cols-2 gap-6 sm:gap-10">
+            <!-- Img -->
+            <div>
+            <img src="../img/China.png" alt="" class=" mx-auto">
+            </div>
+
+            <!-- Content -->
+            <div class="grid grid-cols-2 gap-x-4 gap-y-6 sm:gap-x-10 sm:gap-y-6">
+              <div class="flex flex-col gap-2 sm:gap-3">
+                <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>台北市 Taipei</p>
+                </div>
+  
+                <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
+                  <p>
+                    Tel : 886-2500-7189
+                  </p>
+                  <p>
+                    Fax : 886-2-2500-6389
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-2 sm:gap-3">
+                <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>台北市 Taipei</p>
+                </div>
+  
+                <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
+                  <p>
+                    Tel : 886-2500-7189
+                  </p>
+                  <p>
+                    Fax : 886-2-2500-6389
+                  </p>
+                </div>
+              </div>
+            </div>
+           </div>
         </div>
       </div>
 
