@@ -62,12 +62,10 @@
             <!-- 首頁 -->
             <a class="font-medium text-blue-500 " href="#" aria-current="page">首頁</a>
             <!-- 關於我們 -->
-            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] ">
-              <button type="button" class="flex items-center w-full nav__BTN">
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
+              <button type="button" class="flex items-center w-full nav__BTN group-hover:text-blue-5">
                 關於我們
-                <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                </svg>
+                <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
               </button>
 
               <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
@@ -86,25 +84,23 @@
             <!-- 最新消息 -->
             <a class="nav__BTN" href="dist/news.html">最新消息</a>
             <!-- 服務項目 -->
-            <a class="nav__BTN" href="#">服務項目</a>
+            <a class="nav__BTN" href="dist/service.html">服務項目</a>
             <!-- 聯絡我們 -->
-            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] ">
-              <button type="button" class="flex items-center w-full nav__BTN">
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
+              <button type="button" class="flex items-center w-full nav__BTN group-hover:text-blue-5">
                 聯絡我們
-                <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                </svg>
+                <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
               </button>
 
               <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
-                <a class="nav__SubBTN" href="#">
+                <a class="nav__SubBTN" href="dist/time.html">
                   服務時間
                 </a>
 
-                <a class="nav__SubBTN" href="dist/place_taiwan.html">
+                <a class="nav__SubBTN" href="dist/place.html">
                   交通位置
                 </a>
-                <a class="nav__SubBTN" href="#">
+                <a class="nav__SubBTN" href="dist/contact.html">
                   線上留言
                 </a>
               </div>
@@ -254,8 +250,8 @@
       </div>
 
       <!-- 服務項目 -->
-      <div class="flex flex-col sm:gap-28 items-center sm:px-6 gap-5">
-       <div class="grid grid-cols-2 justify-between w-full sm:gap-x-28 sm:gap-y-10 gap-y-5">
+      <div class="flex flex-col items-center sm:px-6 gap-5 sm:gap-6 lg:gap-28">
+       <div class="grid grid-cols-2 justify-between w-full sm:gap-x-14 md:gap-x-28 gap-y-5 sm:gap-y-10 ">
          <!-- 海空運承攬 -->
          <div class="flex flex-row gap-2 md:gap-8">
           <!-- Icon -->
@@ -264,7 +260,7 @@
           </div>
           <!-- Text -->
           <div class="flex flex-col gap-2 my-auto sm:mt-0">
-            <p class="text-base sm:text-xl font-semibold">海空運承攬</p>
+            <p class="text-base md:text-xl font-semibold">海空運承攬</p>
             <p class="hidden sm:block text-gray-600">涵蓋來往世界各地的海空運進出口貨物，服務包括整櫃和併櫃，提供訂艙、報關、裝船等服務。</p>
           </div>
          </div>
@@ -276,7 +272,7 @@
           </div>
           <!-- Text -->
           <div class="flex flex-col gap-2 my-auto sm:mt-0">
-            <p class="text-base sm:text-xl font-semibold">進出口報關</p>
+            <p class="text-base md:text-xl font-semibold">進出口報關</p>
             <p class="hidden sm:block text-gray-600">第一郵捷的專業團隊瞭解各國複雜的法規和程序，為客戶的國際貿易提供頂尖專業進出口報關服務。</p>
           </div>
          </div>
@@ -288,7 +284,7 @@
           </div>
           <!-- Text -->
           <div class="flex flex-col gap-2 my-auto sm:mt-0">
-            <p class="text-base sm:text-xl font-semibold">卡車運輸</p>
+            <p class="text-base md:text-xl font-semibold">卡車運輸</p>
             <p class="hidden sm:block text-gray-600">第一郵捷擁有多種卡車型號，以滿足不同尺寸和重量的貨物運輸需求，確保貨物準時送達目的地。</p>
           </div>
          </div>
@@ -298,13 +294,13 @@
   </section>
 
   <!-- Cooperate Section -->
-  <section class="py-10 md:py-24 bg-sky-50 shadow-xl flex flex-col sm:gap-20" id="map">
+  <section class="py-10 md:py-16 lg:py-24 bg-sky-50 shadow-xl flex flex-col sm:gap-20" id="map">
     <!-- Title -->
     <div class="hidden md:flex flex-col gap-y-1 sm:gap-y-3 px-4 lg:px-36 max-w-7xl w-full mx-auto">
       <p class="text-sm md:text-lg font-semibold text-blue-600">
-        Cooperate
+        Our Client
       </p>
-      <h1 class="text-xl md:text-5xl">合作夥伴</h1>
+      <h1 class="text-xl md:text-5xl">集團客戶</h1>
     </div>
 
     <!-- Logo Carousel -->
@@ -322,14 +318,14 @@
               <!-- logo 1 -->
               <div class="owl-item px-6 sm:px-16 w-24 flex flex-col items-center gap-2 group/item">
                 <div class="logo__img">
-                  <img src="img/logo1.png" alt="">
+                  <img src="img/logo2.png" alt="">
                 </div>
                 <p class="logo__text">長榮航空</p>
               </div>
               <!-- logo 1 -->
               <div class="owl-item px-6 sm:px-16 w-24 flex flex-col items-center gap-2 group/item">
                 <div class="logo__img">
-                  <img src="img/logo1.png" alt="">
+                  <img src="img/logo3.png" alt="">
                 </div>
                 <p class="logo__text">長榮航空</p>
               </div>
@@ -404,7 +400,7 @@
         </div>
 
         <!-- More BTN -->
-        <a href="" class="flex gap-2 sm:gap-4 items-center group text-gray-900 hover:text-blue-500 transition duration-300 ease-in-out">
+        <a href="dist/news.html" class="flex gap-2 sm:gap-4 items-center group text-gray-900 hover:text-blue-500 transition duration-300 ease-in-out">
           <p class="text-sm md:text-lg">
             查看更多
           </p>
@@ -430,7 +426,7 @@
               <time class="text-xs font-semibold text-sky-400">
                 2023-10-01
               </time>
-              <div class="flex flex-col gap-6">
+              <div class="flex flex-col gap-6 justify-between h-full">
                 <div class="flex flex-col gap-2">
                   <p class="text-lg md:tetx-xl  text-gray-900">
                     財政部謝常務次長鈴媛，蒞臨本公司指導
@@ -462,7 +458,7 @@
               <time class="text-xs font-semibold text-sky-400">
                 2023-10-01
               </time>
-              <div class="flex flex-col gap-6">
+              <div class="flex flex-col gap-6 justify-between h-full">
                 <div class="flex flex-col gap-2">
                   <p class="text-lg md:tetx-xl  text-gray-900">
                     財政部謝常務次長鈴媛，蒞臨本公司指導
@@ -494,7 +490,7 @@
               <time class="text-xs font-semibold text-sky-400">
                 2023-10-01
               </time>
-              <div class="flex flex-col gap-6">
+              <div class="flex flex-col gap-6 justify-between h-full">
                 <div class="flex flex-col gap-2">
                   <p class="text-lg md:tetx-xl  text-gray-900">
                     財政部謝常務次長鈴媛，蒞臨本公司指導
