@@ -2200,7 +2200,7 @@ html {
 #bg2 {
   background-image: url(img/bg2.png);
   width: 100%;
-  background-size: cover;
+  background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
 }
@@ -2666,10 +2666,6 @@ html {
 
   .sm\:aspect-auto{
     aspect-ratio: auto;
-  }
-
-  .sm\:w-2\/3{
-    width: 66.666667%;
   }
 
   .sm\:w-24{
