@@ -201,8 +201,8 @@ html {
 }
 
 #bg3 {
-  background-image: url(img/bg3.png);
-  @apply bg-no-repeat bg-cover w-full bg-center;
+  background-image: url(img/bg4.png);
+  @apply bg-no-repeat bg-cover w-full bg-top;
 }
 
 #map {

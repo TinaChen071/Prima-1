@@ -1082,6 +1082,10 @@ select{
   bottom: 0px;
 }
 
+.-top-10{
+  top: -2.5rem;
+}
+
 .bottom-4{
   bottom: 1rem;
 }
@@ -1276,6 +1280,10 @@ select{
   height: 2.5rem;
 }
 
+.h-12{
+  height: 3rem;
+}
+
 .h-2{
   height: 0.5rem;
 }
@@ -1319,6 +1327,14 @@ select{
 
 .h-full{
   height: 100%;
+}
+
+.h-16{
+  height: 4rem;
+}
+
+.max-h-16{
+  max-height: 4rem;
 }
 
 .max-h-full{
@@ -2266,10 +2282,10 @@ html {
 }
 
 #bg3 {
-  background-image: url(img/bg3.png);
+  background-image: url(img/bg4.png);
   width: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -2696,10 +2712,6 @@ html {
 }
 
 @media (min-width: 640px){
-  .sm\:-top-16{
-    top: -4rem;
-  }
-
   .sm\:order-1{
     order: 1;
   }
@@ -2897,6 +2909,18 @@ html {
 }
 
 @media (min-width: 768px){
+  .md\:-top-16{
+    top: -4rem;
+  }
+
+  .md\:-top-12{
+    top: -3rem;
+  }
+
+  .md\:-top-14{
+    top: -3.5rem;
+  }
+
   .md\:order-2{
     order: 2;
   }
