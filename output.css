@@ -1365,10 +1365,6 @@ select{
   width: 0.875rem;
 }
 
-.w-3\/5{
-  width: 60%;
-}
-
 .w-4{
   width: 1rem;
 }
@@ -1535,10 +1531,6 @@ select{
 
 .gap-20{
   gap: 5rem;
-}
-
-.gap-3{
-  gap: 0.75rem;
 }
 
 .gap-4{
@@ -2772,10 +2764,6 @@ html {
 
   .sm\:p-4{
     padding: 1rem;
-  }
-
-  .sm\:p-6{
-    padding: 1.5rem;
   }
 
   .sm\:px-10{
