@@ -11,14 +11,6 @@ module.exports = {
     //   '2xl': '1536px',
     // },
     extend: {
-      colors: {
-        'custom__primary': '#D02424',
-        'custom__secondary': '#C6D292',
-        'custom__third': '#F0F5E1',
-        'custom__forth': '#D9ECB1',
-        'custom__alert': '#D02424',
-        'custom__brand': '#BB241D',
-      },
       screens: {
         'xs': '480px'
       },

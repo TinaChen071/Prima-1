@@ -192,25 +192,25 @@ html {
 
 #banner1 {
   background-image: url(img/banner1.png);
-  @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-40 sm:h-64 md:h-96;
+  @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-48 sm:h-96 lg:h-128;
 }
 
 #banner2 {
   background-image: url(img/banner2.png);
-  @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-40 sm:h-64 md:h-96;
+  @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-48 sm:h-96 lg:h-128;
 }
 
 #banner3 {
   background-image: url(img/banner3.png);
-  @apply bg-cover md:bg-fixed bg-top bg-no-repeat h-40 sm:h-64 md:h-96;
+  @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-48 sm:h-96 lg:h-128;
 }
 
 #banner4 {
   background-image: url(img/banner4.png);
-  @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-40 sm:h-64 md:h-96;
+  @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-48 sm:h-96 lg:h-128;
 }
 
 #banner5 {
   background-image: url(img/banner5.png);
-  @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-40 sm:h-64 md:h-96;
+  @apply bg-cover md:bg-fixed bg-center bg-no-repeat h-48 sm:h-96 lg:h-128;
 }/*# sourceMappingURL=input.css.map */
