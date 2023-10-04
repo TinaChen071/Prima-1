@@ -855,6 +855,17 @@ select{
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.newsImg{
+  width: 40%;
+  overflow: hidden;
+}
+
+@media (min-width: 768px){
+  .newsImg{
+    width: 50%;
+  }
+}
+
 .newsContent__wrapper{
   display: flex;
   width: 60%;
@@ -871,9 +882,18 @@ select{
   }
 }
 
+@media (min-width: 768px){
+  .newsContent__wrapper{
+    width: 50%;
+  }
+}
+
 @media (min-width: 1024px){
   .newsContent__wrapper{
-    padding: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 }
 
