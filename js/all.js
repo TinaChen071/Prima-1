@@ -65,3 +65,5 @@ function toggleButtonVisibility() {
 
 toggleButtonVisibility();
 window.addEventListener('scroll', toggleButtonVisibility);
+
+

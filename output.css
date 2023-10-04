@@ -934,7 +934,7 @@ select{
   border-radius: 0.75rem;
   border-width: 1px;
   --tw-border-opacity: 1;
-  border-color: rgb(243 244 246 / var(--tw-border-opacity));
+  border-color: rgb(249 250 251 / var(--tw-border-opacity));
   background-color: rgb(255 255 255 / 0.6);
   padding-left: 1rem;
   padding-right: 1rem;
@@ -949,8 +949,8 @@ select{
 }
 
 .client__logo:hover{
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -2235,23 +2235,6 @@ html {
 
   100% {
     transform: translate3d(85px, 0, 0);
-  }
-}
-
-/*Shrinking for mobile*/
-
-@media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
-  }
-
-  .content {
-    height: 30vh;
-  }
-
-  h1 {
-    font-size: 24px;
   }
 }
 
