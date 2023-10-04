@@ -1329,14 +1329,6 @@ select{
   height: 100%;
 }
 
-.h-16{
-  height: 4rem;
-}
-
-.max-h-16{
-  max-height: 4rem;
-}
-
 .max-h-full{
   max-height: 100%;
 }
@@ -1816,6 +1808,10 @@ select{
   background-image: url('https://plus.unsplash.com/premium_photo-1679830513869-cd3648acb1db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2454&q=80');
 }
 
+.bg-\[url\(\'\/img\/about1\.png\'\)\]{
+  background-image: url('/img/about1.png');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -2192,13 +2188,6 @@ html {
   height: 50px;
   width: 100px;
   margin: 0 40px;
-}
-
-.waves {
-  position: relative;
-  width: 100%;
-  height: 15vh;
-  max-height: 64px;
 }
 
 /* Animation */
@@ -2909,16 +2898,8 @@ html {
 }
 
 @media (min-width: 768px){
-  .md\:-top-16{
-    top: -4rem;
-  }
-
   .md\:-top-12{
     top: -3rem;
-  }
-
-  .md\:-top-14{
-    top: -3.5rem;
   }
 
   .md\:order-2{
