@@ -194,7 +194,7 @@ html {
 }
 
 #bg3 {
-  background-image: url(img/bg4.png);
+  background-image: url(img/bg5.png);
   @apply bg-no-repeat bg-cover w-full bg-top;
 }
 
