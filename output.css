@@ -2283,131 +2283,71 @@ html {
 
 #banner1 {
   background-image: url(img/banner1.png);
-  height: 12rem;
+  aspect-ratio: 3/1;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-@media (min-width: 640px){
-  #banner1{
-    height: 24rem;
-  }
-}
-
 @media (min-width: 768px){
   #banner1{
     background-attachment: fixed;
-  }
-}
-
-@media (min-width: 1024px){
-  #banner1{
-    height: 32rem;
   }
 }
 
 #banner2 {
   background-image: url(img/banner2.png);
-  height: 12rem;
+  aspect-ratio: 3/1;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-@media (min-width: 640px){
-  #banner2{
-    height: 24rem;
-  }
-}
-
 @media (min-width: 768px){
   #banner2{
     background-attachment: fixed;
-  }
-}
-
-@media (min-width: 1024px){
-  #banner2{
-    height: 32rem;
   }
 }
 
 #banner3 {
   background-image: url(img/banner3.png);
-  height: 12rem;
+  aspect-ratio: 3/1;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-@media (min-width: 640px){
-  #banner3{
-    height: 24rem;
-  }
-}
-
 @media (min-width: 768px){
   #banner3{
     background-attachment: fixed;
-  }
-}
-
-@media (min-width: 1024px){
-  #banner3{
-    height: 32rem;
   }
 }
 
 #banner4 {
   background-image: url(img/banner4.png);
-  height: 12rem;
+  aspect-ratio: 3/1;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-@media (min-width: 640px){
-  #banner4{
-    height: 24rem;
-  }
-}
-
 @media (min-width: 768px){
   #banner4{
     background-attachment: fixed;
-  }
-}
-
-@media (min-width: 1024px){
-  #banner4{
-    height: 32rem;
   }
 }
 
 #banner5 {
   background-image: url(img/banner5.png);
-  height: 12rem;
+  aspect-ratio: 3/1;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-@media (min-width: 640px){
-  #banner5{
-    height: 24rem;
-  }
-}
-
 @media (min-width: 768px){
   #banner5{
     background-attachment: fixed;
-  }
-}
-
-@media (min-width: 1024px){
-  #banner5{
-    height: 32rem;
   }
 }
 
