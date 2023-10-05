@@ -720,6 +720,8 @@ select{
   padding-right: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px){
