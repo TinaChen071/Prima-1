@@ -18,7 +18,7 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" /> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
 
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
@@ -108,7 +108,7 @@
             </div>
 
             <!-- 語言選擇 -->
-            <div class="flex items-center md:order-2 ">
+            <div class="flex items-center md:order-2">
               <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-white rounded-full cursor-pointer bg-blue-500 hover:bg-blue-600 transition duration-300 ease-in-out">
                 <svg class="w-5 h-5 mr-2 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900"><path fill="#b22234" d="M0 0h7410v3900H0z"/><path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300"/><path fill="#3c3b6e" d="M0 0h2964v2100H0z"/><g fill="#fff"><g id="d"><g id="c"><g id="e"><g id="b"><path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/><use xlink:href="#a" y="420"/><use xlink:href="#a" y="840"/><use xlink:href="#a" y="1260"/></g><use xlink:href="#a" y="1680"/></g><use xlink:href="#b" x="247" y="210"/></g><use xlink:href="#c" x="494"/></g><use xlink:href="#d" x="988"/><use xlink:href="#c" x="1976"/><use xlink:href="#e" x="2470"/></g></svg>
                 English (US)
@@ -158,11 +158,12 @@
     </header>
 
     <!-- Banner -->
-    <div class="" id="banner5"></div>
+    <div class="" id="banner4"></div>
 
   </section>
 
-  <!-- About Section -->
+  <!-- News Section -->
+  
   <section class="relative" id="bg3">
     <!-- Wave -->
     <div class="w-full absolute -top-10 md:-top-12">
@@ -182,106 +183,121 @@
 
     <!-- Content -->
     <div class="section">
-      <!-- 地區 Tab -->
-      <nav class="relative z-0 flex border rounded-lg overflow-hidden shadow-md" aria-label="Tabs" role="tablist">
-        <button type="button" class="tab border-r active" id="bar-with-underline-item-1" data-hs-tab="#bar-with-underline-1" aria-controls="bar-with-underline-1" role="tab">
-          台灣地區
-        </button>
-        <button type="button" class="tab border-r" id="bar-with-underline-item-2" data-hs-tab="#bar-with-underline-2" aria-controls="bar-with-underline-2" role="tab">
-          香港地區
-        </button>
-        <button type="button" class="tab border-r" id="bar-with-underline-item-3" data-hs-tab="#bar-with-underline-3" aria-controls="bar-with-underline-3" role="tab">
-          中國地區
-        </button>
-        <button type="button" class="tab border-r" id="bar-with-underline-item-4" data-hs-tab="#bar-with-underline-4" aria-controls="bar-with-underline-4" role="tab">
-          越南地區
-        </button>
-        <button type="button" class="tab" id="bar-with-underline-item-5" data-hs-tab="#bar-with-underline-5" aria-controls="bar-with-underline-5" role="tab">
-          印尼地區
-        </button>
-      </nav>
+
+      <!-- Title -->
+      <div class="flex justify-between items-end">
+        <!-- Title -->
+        <div class="flex flex-col gap-y-1 sm:gap-y-3">
+          <p class="text-sm md:text-lg font-semibold text-blue-600">
+            News
+          </p>
+          <h1 class="text-xl md:text-5xl">最新消息</h1>
+        </div>
+
+        <!-- 篩選 BTN -->
+        <div class="hs-dropdown relative inline-flex">
+          <button id="hs-dropdown-default" type="button" class="hs-dropdown-toggle py-2 px-3 sm:py-3 sm:px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-600 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm ">
+            全部
+            <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+        
+          <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] hs-dropdown-open:opacity-100 opacity-0 hidden z-10 mt-2 min-w-[8rem] bg-white shadow-md rounded-lg p-2 " aria-labelledby="hs-dropdown-default">
+            <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 " href="#">
+              由新至舊
+            </a>
+            <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 " href="#">
+              由舊至新
+            </a>
+            
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- News Card -->
       
-      <!-- 內容 -->
-      <div class="">
-        <!-- Taiwan -->
-        <div id="bar-with-underline-1" role="tabpanel" aria-labelledby="bar-with-underline-item-1">
-          <div class="grid md:grid-cols-2 gap-6 sm:gap-10">
-            <!-- Img -->
-            <div class="relative">
-              <i class="fa-solid fa-location-dot absolute right-32 top-6 z-[1000]" id="taiwan"></i>
-              
-              <img src="../img/taiwan.png" alt="" class="w-1/2 md:w-2/3 mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-10">
+        <!-- Card 1 -->
+        <a href="#" class="newsCard__wrapper group" data-hs-overlay="#hs-scroll-inside-body-modal">
+          <div class="flex bg-white rounded-lg sm:rounded-xl">
+            <!-- img -->
+            <div class="w-2/5 overflow-hidden">
+              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
             </div>
 
             <!-- Content -->
-            <div class="flex flex-col gap-2 sm:gap-3" >
-
-              <div class="flex gap-1.5 text-blue-500 font-semibold items-center" id="taiwanTag">
-                <i class="fa-solid fa-location-dot"></i>
-                <p>台北市 Taipei</p>
-              </div>
-
-              <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
-                <p>
-                  Tel : 886-2500-7189
-                </p>
-                <p>
-                  Fax : 886-2-2500-6389
-                </p>
+            <div class="newsContent__wrapper">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-10-01
+              </time>
+              <div class="flex flex-col gap-6 justify-between h-full">
+                <div class="flex flex-col gap-2">
+                  <p class="text-lg md:tetx-xl  text-gray-900">
+                    財政部謝常務次長鈴媛，蒞臨本公司指導
+                  </p>
+                  <div class="">
+                    <p class=" line-clamp-2 text-gray-500">
+                      我們公司專注於海運快遞倉，公司以優良的軟硬體設備、嚴密的保全系統以及標準的作業流程，致力於提高效率提供客戶最佳的服務。透過創新科技與專業團隊，我們將持續優化服務品質，提升物流效率，以滿足客戶日益增長的需求。於此次參訪中，與貴賓共同探討業界最新趨勢及貨物安全，並交流合作共贏之道，攜手打造更璀璨的物流未來！
+                    </p>
+                  </div>
+                </div>
+                
+                <button type="button" class="hidden sm:block button ">
+                  閱讀更多
+                </button>
               </div>
             </div>
           </div>
-        </div>
-        <!-- Hongkong -->
-        <div id="bar-with-underline-2" class="hidden" role="tabpanel" aria-labelledby="bar-with-underline-item-2">
-          <p class="text-gray-500 dark:text-gray-400">
-            This is the <em class="font-semibold text-gray-800 dark:text-gray-200">second</em> item's tab body.
-          </p>
-        </div>
-        <!-- China -->
-        <div id="bar-with-underline-3" class="hidden" role="tabpanel" aria-labelledby="bar-with-underline-item-3">
-           <div class="grid md:grid-cols-2 gap-6 sm:gap-10">
-            <!-- Img -->
-            <div>
-            <img src="../img/China.png" alt="" class=" mx-auto">
+        </a>
+        <!-- Card 1 -->
+        <a href="#" class="newsCard__wrapper group" data-hs-overlay="#hs-scroll-inside-body-modal">
+          <div class="flex bg-white rounded-lg sm:rounded-xl">
+            <!-- img -->
+            <div class="w-2/5 overflow-hidden">
+              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
             </div>
 
             <!-- Content -->
-            <div class="grid grid-cols-2 gap-x-4 gap-y-6 sm:gap-x-10 sm:gap-y-6">
-              <div class="flex flex-col gap-2 sm:gap-3">
-                <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <p>台北市 Taipei</p>
-                </div>
-  
-                <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
-                  <p>
-                    Tel : 886-2500-7189
+            <div class="newsContent__wrapper">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-10-01
+              </time>
+              <div class="flex flex-col gap-6 justify-between h-full">
+                <div class="flex flex-col gap-2">
+                  <p class="text-lg md:tetx-xl  text-gray-900">
+                    財政部謝常務次長鈴媛，蒞臨本公司指導
                   </p>
-                  <p>
-                    Fax : 886-2-2500-6389
-                  </p>
+                  <div class="">
+                    <p class=" line-clamp-2 text-gray-500">
+                      我們公司專注於海運快遞倉，公司以優良的軟硬體設備、嚴密的保全系統以及標準的作業流程，致力於提高效率提供客戶最佳的服務。透過創新科技與專業團隊，我們將持續優化服務品質，提升物流效率，以滿足客戶日益增長的需求。於此次參訪中，與貴賓共同探討業界最新趨勢及貨物安全，並交流合作共贏之道，攜手打造更璀璨的物流未來！
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="flex flex-col gap-2 sm:gap-3">
-                <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <p>台北市 Taipei</p>
-                </div>
-  
-                <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
-                  <p>
-                    Tel : 886-2500-7189
-                  </p>
-                  <p>
-                    Fax : 886-2-2500-6389
-                  </p>
-                </div>
+                
+                <button type="button" class="hidden sm:block button ">
+                  閱讀更多
+                </button>
               </div>
             </div>
-           </div>
-        </div>
+          </div>
+        </a>
+        
       </div>
+
+      <!-- Pagination -->
+      <nav class="flex justify-center items-center space-x-2">
+        <a class="pagination gap-2 rounded-md" href="#">
+          <i class="fa-solid fa-chevron-left"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="w-10 h-10 bg-sky-300 text-white p-4 inline-flex items-center text-sm font-medium rounded-full transition-all" href="#" aria-current="page">1</a>
+        <a class="w-10 h-10 pagination text-sm font-medium rounded-full" href="#">2</a>
+        <a class="w-10 h-10 pagination text-sm font-medium rounded-full" href="#">3</a>
+        <a class="pagination gap-2 rounded-md" href="#">
+          <span class="sr-only">Next</span>
+          <i class="fa-solid fa-chevron-right"></i>
+        </a>
+      </nav>
 
     </div>
   </section>
@@ -315,7 +331,7 @@
           <i class="fa-solid fa-location-dot text-4xl text-blue-300"></i>
           <div class="flex flex-col gap-2">
             <p class="text-lg font-semibold text-blue-300">Our Location</p>
-            <p class="text-white">
+            <p>
               330010 桃園市桃園區同安里同德六街89號3樓
             </p>
           </div>
@@ -324,6 +340,7 @@
       </div>
     </div>
 
+    
   
     <div class="horizon__center py-4 px-4 border-t border-white text-center text-xs md:text-sm">
       <p>
@@ -336,12 +353,12 @@
   </footer>
 
  <!-- To Top BTN -->
- <button class="fixed right-4 bottom-4 xs:right-8 xs:bottom-8 bg-blue-300 text-white  hover:bg-blue-400  transition-all duration-600 border-2 border-white rounded-full opacity-0 hidden z-100 shadow-md" id="backToTopBtn">
-  <div class="px-4 py-2.5 text-sm xs:text-base">
-    <i class="fa-solid fa-arrow-up"></i>
-  </div>
- </button>
-     
+  <button class="fixed right-4 bottom-4 xs:right-8 xs:bottom-8 bg-blue-300 text-white  hover:bg-blue-400  transition-all duration-600 border-2 border-white rounded-full opacity-0 hidden z-100 shadow-md" id="backToTopBtn">
+    <div class="px-4 py-3 text-sm xs:text-base">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+  </button>
+
 
   <!-- jQuery main -->
   <script src="../js/jquery-3.6.3.min.js"></script>
