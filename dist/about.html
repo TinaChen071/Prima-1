@@ -186,23 +186,23 @@
         <p class="text-sm md:text-lg font-semibold text-blue-600">
           About Us
         </p>
-        <h1 class="text-xl md:text-5xl">關於我們</h1>
+        <h1 class="text-xl md:text-5xl">公司介紹</h1>
       </div>
 
       <!-- Content -->
       <div class="grid gap-8 sm:gap-14 md:gap-20 ">
 
         <!-- 內容1 -->
-        <div class="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-10">
+        <div class="grid md:grid-cols-2 gap-4 md:gap-6 lg:gap-10">
           <!-- Img -->
           <div class="shadow-lg rounded-xl overflow-hidden aspect-video bg-cover bg-center bg-no-repeat bg-[url('img/about1.png')]">
           </div>
           <!-- 內容 -->
           <div class="flex flex-col gap-2 sm:gap-4">
-            <p class="text-blue-500 text-xl sm:text-2xl font-medium">
+            <p class="text-blue-500 text-xl sm:text-3xl font-medium">
               第一郵捷作為全方位的海空運承攬夥伴，提供多元且專業的物流服務
             </p>
-            <p class="text-gray-500">
+            <p class="text-gray-700 md:text-xl">
               透過進出口整櫃/併箱、貨物報關、卡車運輸等一系列服務，確保貨物高效、安全地運達全球各地。並結合母集團–第一郵 的豐富資源，與各大海港、航空公司、中轉倉儲等的緊密合作，能夠應對各種挑戰，提供最佳的運輸解決方案，為客戶打造全球運輸網絡，實現國際貿易的最大商業價值。
             </p>
           </div>
@@ -210,9 +210,9 @@
         </div>
 
         <!-- 內容2 -->
-        <div class="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-10">
+        <div class="grid md:grid-cols-2 gap-4 md:gap-6 lg:gap-10">
           <!-- Img -->
-          <div class="grid grid-cols-2 gap-4 sm:order-2">
+          <div class="grid grid-cols-2 gap-4 md:order-2">
             <!-- Img1 -->
             <div class="mb-10 sm:mb-16 aspect-[4/5]">
               <div class="shadow-lg rounded-xl h-full overflow-hidden bg-cover bg-center bg-no-repeat bg-[url('img/about2.png')]">
@@ -225,11 +225,11 @@
             </div>
           </div>
           <!-- 內容 -->
-          <div class="flex flex-col gap-2 sm:gap-4 sm:order-1">
-            <p class="text-blue-500 text-xl sm:text-2xl font-medium">
+          <div class="flex flex-col gap-2 sm:gap-4 md:order-1">
+            <p class="text-blue-500 text-xl sm:text-3xl font-medium">
               第一郵捷營運項目涵蓋整體物流服務
             </p>
-            <p class="text-gray-500">
+            <p class="text-gray-700 md:text-xl">
               海運空運出口、空運海運進口、三角貿易、報關、倉儲等服務；業務範圍更含括東南亞、大陸華南、大陸華中北、香港、日韓、中南美、歐地、美加紐非澳、中東印巴等航線，涵蓋全世界。
               <br>
               <br>
@@ -240,16 +240,16 @@
         </div>
 
         <!-- 內容3 -->
-        <div class="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-10">
+        <div class="grid md:grid-cols-2 gap-4 md:gap-6 lg:gap-10">
           <!-- Img -->
           <div class="shadow-lg rounded-xl overflow-hidden aspect-video bg-cover bg-center bg-no-repeat bg-[url('./img/about1.png')]">
           </div>
           <!-- 內容 -->
           <div class="flex flex-col gap-2 sm:gap-4">
-            <p class="text-blue-500 text-xl sm:text-2xl font-medium">
+            <p class="text-blue-500 text-xl sm:text-3xl font-medium">
               第一郵捷秉持客戶至上的理念
             </p>
-            <p class="text-gray-500">
+            <p class="text-gray-700 md:text-xl">
               不僅提供專業的物流服務，更是客戶可信賴的合作夥伴。我們深入瞭解客戶的需求，不論是整櫃/併櫃還是其他相關運輸服務，提供最快速、全方位的建議，讓客戶能在最短的時間內完成運輸規劃。
               <br>
               <br>
@@ -268,15 +268,15 @@
   <footer class=" bg-blue-900 text-white ">
     <!-- Content -->
     <div class="section md:py-16">
-      <div class="grid md:grid-cols-2  items-end">
-        <!-- Logo -->
+      <div class="grid md:grid-cols-2 items-center  gap-6">
+        <!-- Logo + link -->
         <div class="flex flex-col gap-6 md:gap-12 horizon__center md:items-start justify-start">
           <!-- Logo -->
-          <a class="w-2/5 md:w-2/3" href="#" >
-            <img src="../img/Logo-white.png" class="w-full h-full object-contain" alt="">
+          <a class="w-2/3 md:w-5/6" href="#" >
+            <img src="../img/Logo-L.png" class="w-full h-full object-contain brightness-[1000]" alt="">
           </a>
-          <!-- 按鈕 -->
-          <div class="grid grid-cols-4 justify-around gap-4 md:gap-8 text-center w-fit">
+          <!-- link -->
+          <div class="hidden md:grid grid-cols-4 justify-around gap-4 md:gap-8 ">
             <a href="" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">關於我們
             </a>
             <a href="" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">最新消息
@@ -288,14 +288,27 @@
           </div>
         </div>
     
-        <!-- Location -->
-        <div class="hidden md:flex gap-6 w-2/3 justify-self-end">
-          <i class="fa-solid fa-location-dot text-4xl text-blue-300"></i>
-          <div class="flex flex-col gap-2">
-            <p class="text-lg font-semibold text-blue-300">Our Location</p>
-            <p class="text-white">
-              330010 桃園市桃園區同安里同德六街89號3樓
-            </p>
+        <!-- Location + Phone -->
+        <div class="flex flex-col gap-3 md:gap-6 items-start justify-self-center md:justify-self-end">
+          <!-- Location -->
+          <div class="flex gap-3 md:gap-6">
+            <i class="fa-solid fa-location-dot text-xl md:text-4xl text-blue-300"></i>
+            <div class="flex flex-col gap-2">
+              <p class="hidden md:block text-lg font-semibold text-blue-300">Our Location</p>
+              <p class="text-white">
+                台北市中山區南京東路二段137號11樓
+              </p>
+            </div>
+          </div>
+          <!-- Phone -->
+          <div class="flex gap-3 md:gap-6">
+            <i class="fa-solid fa-phone text-xl md:text-4xl text-blue-300"></i>
+            <div class="flex flex-col gap-2">
+              <p class="hidden md:block text-lg font-semibold text-blue-300">Our Phone</p>
+              <p class="text-white">
+                886-2-2500-7189
+              </p>
+            </div>
           </div>
         </div>
     
@@ -303,7 +316,7 @@
     </div>
 
   
-    <div class="horizon__center py-4 px-4 border-t border-white text-center text-xs md:text-sm">
+    <div class="horizon__center py-4 md:py-8 px-4 border-t border-white text-center text-xs md:text-sm">
       <p>
         © 2023 第一郵捷國際物流股份有限公司&nbsp;  
       </p>
@@ -315,8 +328,8 @@
 
  <!-- To Top BTN -->
  <button class="fixed right-4 bottom-4 xs:right-8 xs:bottom-8 bg-blue-300 text-white  hover:bg-blue-400  transition-all duration-600 border-2 border-white rounded-full opacity-0 hidden z-100 shadow-md" id="backToTopBtn">
-    <div class="px-4 py-2.5 text-sm xs:text-base">
-      <i class="fa-solid fa-arrow-up"></i>
+    <div class="px-4 py-3 text-sm xs:text-base">
+      <i class="fa-solid fa-arrow-up w-4 h-4"></i>
     </div>
   </button>
      

@@ -67,3 +67,21 @@ toggleButtonVisibility();
 window.addEventListener('scroll', toggleButtonVisibility);
 
 
+// map
+$(document).ready(function() {
+  // Select the icon and content elements
+  var $icon = $('#taiwan');
+  var $content = $('#taiwanTag');
+
+  // Define the hover effect
+  $icon.hover(
+    function() {
+      // On hover (mouse enter), change the content color
+      $content.addClass('text-blue-500').removeClass('text-black');
+    },
+    function() {
+      // On hover out (mouse leave), reset the content color
+      $content.removeClass('text-blue-500').addClass('text-black');
+    }
+  );
+});
