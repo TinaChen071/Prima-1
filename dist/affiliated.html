@@ -23,6 +23,9 @@
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+    <!-- Flag Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css"/>
     
     
 </head>
@@ -56,62 +59,59 @@
         <!-- 按鈕 -->
         <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
           <div class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7 py-4">
-            <!-- 首頁 -->
-            <a class="font-medium text-blue-500 " href="#" aria-current="page">首頁</a>
+            
             <!-- 關於我們 -->
-            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] ">
-              <button type="button" class="flex items-center w-full nav__BTN">
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
+              <button type="button" class="flex items-center w-full font-medium text-blue-500">
                 關於我們
-                <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                </svg>
+                <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
               </button>
 
               <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
-                <a class="nav__SubBTN" href="#">
+                <a class="nav__SubBTN" href="../dist/about.html">
                   公司介紹
                 </a>
 
-                <a class="nav__SubBTN" href="#">
+                <a class="nav__SubBTN" href="../dist/affiliated.html">
                   關係企業
                 </a>
-                <a class="nav__SubBTN" href="#">
+                <a class="nav__SubBTN" href="../dist/client.html">
                   集團客戶
                 </a>
               </div>
             </div>
             <!-- 最新消息 -->
-            <a class="nav__BTN" href="#">最新消息</a>
+            <a class="nav__BTN" href="../dist/news.html">最新消息</a>
             <!-- 服務項目 -->
-            <a class="nav__BTN" href="#">服務項目</a>
+            <a class="nav__BTN" href="../dist/service.html">服務項目</a>
             <!-- 聯絡我們 -->
-            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] ">
-              <button type="button" class="flex items-center w-full nav__BTN">
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
+              <button type="button" class="flex items-center w-full nav__BTN group-hover:text-blue-5">
                 聯絡我們
-                <svg class="ml-2 w-2.5 h-2.5 text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                </svg>
+                <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
               </button>
 
               <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
-                <a class="nav__SubBTN" href="#">
+                <a class="nav__SubBTN" href="../dist/time.html">
                   服務時間
                 </a>
 
-                <a class="nav__SubBTN" href="#">
+                <a class="nav__SubBTN" href="../dist/place.html">
                   交通位置
                 </a>
-                <a class="nav__SubBTN" href="#">
+                <a class="nav__SubBTN" href="../dist/contact.html">
                   線上留言
                 </a>
               </div>
             </div>
 
             <!-- 語言選擇 -->
-            <div class="flex items-center md:order-2 ">
+            <div class="flex items-center md:order-2">
               <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-white rounded-full cursor-pointer bg-blue-500 hover:bg-blue-600 transition duration-300 ease-in-out">
-                <svg class="w-5 h-5 mr-2 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900"><path fill="#b22234" d="M0 0h7410v3900H0z"/><path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300"/><path fill="#3c3b6e" d="M0 0h2964v2100H0z"/><g fill="#fff"><g id="d"><g id="c"><g id="e"><g id="b"><path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/><use xlink:href="#a" y="420"/><use xlink:href="#a" y="840"/><use xlink:href="#a" y="1260"/></g><use xlink:href="#a" y="1680"/></g><use xlink:href="#b" x="247" y="210"/></g><use xlink:href="#c" x="494"/></g><use xlink:href="#d" x="988"/><use xlink:href="#c" x="1976"/><use xlink:href="#e" x="2470"/></g></svg>
-                English (US)
+                <div class="rounded-full overflow-hidden mr-2 flex items-center w-5 h-5">
+                  <span class="fi fi-tw scale-150"></span>
+                </div>
+                中文 (繁體)
               </button>
               <!-- Dropdown -->
               <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow " id="language-dropdown-menu">
@@ -119,7 +119,9 @@
                   <li>
                     <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
                       <div class="inline-flex items-center">
-                        <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full mr-2" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 512 512"><g fill-rule="evenodd"><g stroke-width="1pt"><path fill="#bd3d44" d="M0 0h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/><path fill="#fff" d="M0 10h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/></g><path fill="#192f5d" d="M0 0h98.8v70H0z" transform="scale(3.9385)"/><path fill="#fff" d="M8.2 3l1 2.8H12L9.7 7.5l.9 2.7-2.4-1.7L6 10.2l.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7L74 8.5l-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 7.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 24.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 21.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 38.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 35.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 52.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 49.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 66.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 63.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9z" transform="scale(3.9385)"/></g></svg>              
+                        <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
+                          <span class="fi fi-us scale-[1.4]"></span>
+                        </div>              
                         English (US)
                       </div>
                     </a>
@@ -127,24 +129,20 @@
                   <li>
                     <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
                       <div class="inline-flex items-center">
-                        <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 512 512"><path fill="#ffce00" d="M0 341.3h512V512H0z"/><path d="M0 0h512v170.7H0z"/><path fill="#d00" d="M0 170.7h512v170.6H0z"/></svg>
-                        Deutsch
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
-                      <div class="inline-flex items-center">
-                        <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 512 512"><g fill-rule="evenodd" stroke-width="1pt"><path fill="#fff" d="M0 0h512v512H0z"/><path fill="#009246" d="M0 0h170.7v512H0z"/><path fill="#ce2b37" d="M341.3 0H512v512H341.3z"/></g></svg>              
-                        Italiano
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
-                      <div class="inline-flex items-center">
-                        <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icon-css-cn" viewBox="0 0 512 512"><defs><path id="a" fill="#ffde00" d="M1-.3L-.7.8 0-1 .6.8-1-.3z"/></defs><path fill="#de2910" d="M0 0h512v512H0z"/><use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-121 142.6 -47) scale(25.5827)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-74 272.4 -114) scale(25.6137)" xlink:href="#a"/><use width="30" height="20" transform="matrix(16 -19.968 19.968 16 256 230.4)" xlink:href="#a"/></svg>
+                        <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
+                          <span class="fi fi-tw scale-[1.4]"></span>
+                        </div> 
                         中文 (繁體)
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
+                      <div class="inline-flex items-center">
+                        <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
+                          <span class="fi fi-cn scale-[1.4]"></span>
+                        </div> 
+                        中文 (簡體)
                       </div>
                     </a>
                   </li>
@@ -257,15 +255,15 @@
   <footer class=" bg-blue-900 text-white ">
     <!-- Content -->
     <div class="section md:py-16">
-      <div class="grid md:grid-cols-2  items-end">
-        <!-- Logo -->
+      <div class="grid md:grid-cols-2 items-center  gap-6">
+        <!-- Logo + link -->
         <div class="flex flex-col gap-6 md:gap-12 horizon__center md:items-start justify-start">
           <!-- Logo -->
-          <a class="w-2/5 md:w-2/3" href="#" >
-            <img src="../img/Logo-white.png" class="w-full h-full object-contain" alt="">
+          <a class="w-2/3 md:w-5/6" href="#" >
+            <img src="../img/Logo-L.png" class="w-full h-full object-contain brightness-[1000]" alt="">
           </a>
-          <!-- 按鈕 -->
-          <div class="grid grid-cols-4 justify-around gap-4 md:gap-8 text-center w-fit">
+          <!-- link -->
+          <div class="hidden md:grid grid-cols-4 justify-around gap-4 md:gap-8 ">
             <a href="" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">關於我們
             </a>
             <a href="" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">最新消息
@@ -277,14 +275,27 @@
           </div>
         </div>
     
-        <!-- Location -->
-        <div class="hidden md:flex gap-6 w-2/3 justify-self-end">
-          <i class="fa-solid fa-location-dot text-4xl text-blue-300"></i>
-          <div class="flex flex-col gap-2">
-            <p class="text-lg font-semibold text-blue-300">Our Location</p>
-            <p class="text-white">
-              330010 桃園市桃園區同安里同德六街89號3樓
-            </p>
+        <!-- Location + Phone -->
+        <div class="flex flex-col gap-3 md:gap-6 items-start justify-self-center md:justify-self-end">
+          <!-- Location -->
+          <div class="flex gap-3 md:gap-6">
+            <i class="fa-solid fa-location-dot text-xl md:text-4xl text-blue-300"></i>
+            <div class="flex flex-col gap-2">
+              <p class="hidden md:block text-lg font-semibold text-blue-300">Our Location</p>
+              <p class="text-white">
+                台北市中山區南京東路二段137號11樓
+              </p>
+            </div>
+          </div>
+          <!-- Phone -->
+          <div class="flex gap-3 md:gap-6">
+            <i class="fa-solid fa-phone text-xl md:text-4xl text-blue-300"></i>
+            <div class="flex flex-col gap-2">
+              <p class="hidden md:block text-lg font-semibold text-blue-300">Our Phone</p>
+              <p class="text-white">
+                886-2-2500-7189
+              </p>
+            </div>
           </div>
         </div>
     
@@ -292,7 +303,7 @@
     </div>
 
   
-    <div class="horizon__center py-4 px-4 border-t border-white text-center text-xs md:text-sm">
+    <div class="horizon__center py-4 md:py-8 px-4 border-t border-white text-center text-xs md:text-sm">
       <p>
         © 2023 第一郵捷國際物流股份有限公司&nbsp;  
       </p>
@@ -304,10 +315,10 @@
 
  <!-- To Top BTN -->
  <button class="fixed right-4 bottom-4 xs:right-8 xs:bottom-8 bg-blue-300 text-white  hover:bg-blue-400  transition-all duration-600 border-2 border-white rounded-full opacity-0 hidden z-100 shadow-md" id="backToTopBtn">
-  <div class="px-4 py-2.5 text-sm xs:text-base">
-    <i class="fa-solid fa-arrow-up"></i>
-  </div>
- </button>
+    <div class="px-4 py-3 text-sm xs:text-base">
+      <i class="fa-solid fa-arrow-up w-4 h-4"></i>
+    </div>
+  </button>
      
 
   <!-- jQuery main -->
