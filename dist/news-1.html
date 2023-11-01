@@ -38,7 +38,7 @@
           <!-- Logo -->
           <a class="" href="../index.html" aria-label="Brand">
             <img src="../img/Logo-L.png" class="hidden xl:block md:h-16 object-contain" alt="">
-            <img src="../img/Logo-S.png" class="xl:hidden h-10 object-contain w-3/4" alt="">
+            <img src="../img/Logo-S.png" class="xl:hidden h-10 object-contain w-3/4 sm:w-fit" alt="">
           </a>
 
           <!-- 漢堡選單 -->
@@ -208,82 +208,80 @@
     </article>
 
     <!-- 最近文章列表 -->
-    <div class="">
-      <div class="hidden lg:block bg-blue-100/70 rounded-2xl border-2 border-white p-6 h-fit">
-        <!-- Title -->
-        <div class="flex justify-between items-end pb-6">
-          <p class="text-4xl text-gray-900">Reviews</p>
-          <!-- More BTN -->
-          <a href="../dist/news.html" class="flex gap-2 sm:gap-3 items-center group text-gray-900 hover:text-blue-500 transition duration-300 ease-in-out">
-            <p class="text-sm whitespace-nowrap">
-              查看更多
-            </p>
-            <div class="relative right-0 group-hover:-right-1 ">
-              <i class="fa-solid fa-arrow-right-long"></i>
+    <div class="hidden lg:block bg-blue-100/70 rounded-2xl border-2 border-white p-6 h-fit">
+      <!-- Title -->
+      <div class="flex justify-between items-end pb-6">
+        <p class="text-4xl text-gray-900">Reviews</p>
+        <!-- More BTN -->
+        <a href="../dist/news.html" class="flex gap-2 sm:gap-3 items-center group text-gray-900 hover:text-blue-500 transition duration-300 ease-in-out">
+          <p class="text-sm whitespace-nowrap">
+            查看更多
+          </p>
+          <div class="relative right-0 group-hover:-right-1 ">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </a>
+      </div>
+
+      <!-- 文章列表 -->
+      <div class="flex flex-col gap-4">
+        <!-- Card 1 -->
+        <a href="../dist/news-2.html" class="newsCard__wrapper group" >
+          <div class="flex bg-white rounded-xl">
+            <!-- img -->
+            <div class="newsImg">
+              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
             </div>
-          </a>
-        </div>
-  
-        <!-- 文章列表 -->
-        <div class="flex flex-col gap-4">
-          <!-- Card 1 -->
-          <a href="../dist/news-2.html" class="newsCard__wrapper group" >
-            <div class="flex bg-white rounded-xl">
-              <!-- img -->
-              <div class="newsImg">
-                <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
-              </div>
-  
-              <!-- Content -->
-              <div class="newsContent__wrapper gap-2">
-                <time class="text-xs font-semibold text-sky-400">
-                  2023-09-19
-                </time>
-                <p class="line-clamp-2 text-lg  text-gray-900">
-                  臺北關籲請業者報運貨品出口，應依規定正確標示產地
-                </p>
-              </div>
+
+            <!-- Content -->
+            <div class="newsContent__wrapper gap-2">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-09-19
+              </time>
+              <p class="line-clamp-2 text-lg  text-gray-900">
+                臺北關籲請業者報運貨品出口，應依規定正確標示產地
+              </p>
             </div>
-          </a>
-          <!-- Card 2 -->
-          <a href="../dist/news-3.html" class="newsCard__wrapper group" >
-            <div class="flex bg-white rounded-xl">
-              <!-- img -->
-              <div class="newsImg">
-                <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
-              </div>
-  
-              <!-- Content -->
-              <div class="newsContent__wrapper gap-2">
-                <time class="text-xs font-semibold text-sky-400">
-                  2023-07-05
-                </time>
-                <p class="line-clamp-2 text-lg  text-gray-900">
-                  臺北關籲請業者正確申報出口貨樣統計方式
-                </p>
-              </div>
+          </div>
+        </a>
+        <!-- Card 2 -->
+        <a href="../dist/news-3.html" class="newsCard__wrapper group" >
+          <div class="flex bg-white rounded-xl">
+            <!-- img -->
+            <div class="newsImg">
+              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
             </div>
-          </a>
-          <!-- Card 3 -->
-          <a href="../dist/news-4.html" class="newsCard__wrapper group" >
-            <div class="flex bg-white rounded-xl">
-              <!-- img -->
-              <div class="newsImg">
-                <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
-              </div>
-  
-              <!-- Content -->
-              <div class="newsContent__wrapper gap-2">
-                <time class="text-xs font-semibold text-sky-400">
-                  2023-06-27
-                </time>
-                <p class="line-clamp-2 text-lg  text-gray-900">
-                  商民申請進口貨物稅則預先審核時應提供正確貨物資料
-                </p>
-              </div>
+
+            <!-- Content -->
+            <div class="newsContent__wrapper gap-2">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-07-05
+              </time>
+              <p class="line-clamp-2 text-lg  text-gray-900">
+                臺北關籲請業者正確申報出口貨樣統計方式
+              </p>
             </div>
-          </a>
-        </div>
+          </div>
+        </a>
+        <!-- Card 3 -->
+        <a href="../dist/news-4.html" class="newsCard__wrapper group" >
+          <div class="flex bg-white rounded-xl">
+            <!-- img -->
+            <div class="newsImg">
+              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
+            </div>
+
+            <!-- Content -->
+            <div class="newsContent__wrapper gap-2">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-06-27
+              </time>
+              <p class="line-clamp-2 text-lg  text-gray-900">
+                商民申請進口貨物稅則預先審核時應提供正確貨物資料
+              </p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
     
