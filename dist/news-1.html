@@ -18,14 +18,13 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" /> -->
-
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-    
+
     <!-- Flag Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css"/>
+    
     
 </head>
 <body>
@@ -58,7 +57,7 @@
         <!-- 按鈕 -->
         <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
           <div class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7 py-4">
-
+            
             <!-- 關於我們 -->
             <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
               <button type="button" class="nav__BTN">
@@ -80,12 +79,12 @@
               </div>
             </div>
             <!-- 最新消息 -->
-            <a class="nav__BTN" href="../dist/news.html">最新消息</a>
+            <a class="font-medium text-blue-500 whitespace-nowrap" href="../dist/news.html">最新消息</a>
             <!-- 服務項目 -->
             <a class="nav__BTN" href="../dist/service.html">服務項目</a>
             <!-- 聯絡我們 -->
             <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
-              <button type="button" class="font-medium text-blue-500 whitespace-nowrap">
+              <button type="button" class="nav__BTN">
                 聯絡我們
                 <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
               </button>
@@ -154,208 +153,141 @@
       </nav>
     </header>
 
-    <!-- Banner -->
-    <div class="" id="banner5"></div>
-
   </section>
 
-  <!-- About Section -->
-  <section class="relative" id="bg3">
-    <!-- Wave -->
-    <div class="w-full absolute -top-10 md:-top-12">
-      <svg class="relative w-full h-12 " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-      <defs>
-      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-      </defs>
-      <g class="parallax">
-      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.8)" />
-      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.6)" />
-      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.4)" />
-      <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255,0.2)" />
-      </g>
-      </svg>
-    </div>
-
-    <!-- Content -->
-    <div class="section">
-      <!-- 地區 Tab -->
-      <nav class="relative z-0 flex border rounded-lg overflow-hidden shadow-md" aria-label="Tabs" role="tablist">
-        <button type="button" class="tab border-r active" id="bar-with-underline-item-1" data-hs-tab="#bar-with-underline-1" aria-controls="bar-with-underline-1" role="tab">
-          台灣地區
-        </button>
-        <button type="button" class="tab border-r" id="bar-with-underline-item-2" data-hs-tab="#bar-with-underline-2" aria-controls="bar-with-underline-2" role="tab">
-          中國地區（含香港）
-        </button>
-        <button type="button" class="tab border-r" id="bar-with-underline-item-3" data-hs-tab="#bar-with-underline-3" aria-controls="bar-with-underline-3" role="tab">
-          越南地區
-        </button>
-        <button type="button" class="tab" id="bar-with-underline-item-4" data-hs-tab="#bar-with-underline-4" aria-controls="bar-with-underline-4" role="tab">
-          印尼地區
-        </button>
-      </nav>
-      
-      <!-- 內容 -->
-      <div class="">
-        <!-- Taiwan -->
-        <div id="bar-with-underline-1" role="tabpanel" aria-labelledby="bar-with-underline-item-1">
-          <div class="grid md:grid-cols-2 gap-6 sm:gap-10">
-            <!-- Img -->
-            <div>
-              <img src="../img/taiwan.png" alt="" class="w-1/2 md:w-2/3 mx-auto">
-            </div>
-
-            <!-- Content -->
-            <div class="flex flex-col gap-2 sm:gap-3">
-
-              <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
-                <i class="fa-solid fa-location-dot"></i>
-                <p>台北市 Taipei</p>
-              </div>
-
-              <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
-                <p>
-                  Tel : 886-2500-7189
-                </p>
-                <p>
-                  Fax : 886-2-2500-6389
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- China -->
-        <div id="bar-with-underline-2" class="hidden" role="tabpanel" aria-labelledby="bar-with-underline-item-2">
-           <div class="grid md:grid-cols-2 gap-6 sm:gap-10">
-            <!-- Img -->
-            <div>
-            <img src="../img/China.png" alt="" class=" mx-auto">
-            </div>
-
-            <!-- Content -->
-            <div class="grid grid-cols-2 gap-x-4 gap-y-6 sm:gap-x-10 sm:gap-y-6">
-              <div class="flex flex-col gap-2 sm:gap-3">
-                <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <p>台北市 Taipei</p>
-                </div>
-  
-                <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
-                  <p>
-                    Tel : 886-2500-7189
-                  </p>
-                  <p>
-                    Fax : 886-2-2500-6389
-                  </p>
-                </div>
-              </div>
-              <div class="flex flex-col gap-2 sm:gap-3">
-                <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <p>台北市 Taipei</p>
-                </div>
-  
-                <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
-                  <p>
-                    Tel : 886-2500-7189
-                  </p>
-                  <p>
-                    Fax : 886-2-2500-6389
-                  </p>
-                </div>
-              </div>
-            </div>
-           </div>
-        </div>
-        <!-- Vietnam -->
-        <div id="bar-with-underline-3" class="hidden" role="tabpanel" aria-labelledby="bar-with-underline-item-3">
-           <div class="grid md:grid-cols-2 gap-6 sm:gap-10">
-            <!-- Img -->
-            <div>
-            <img src="../img/Vietnam.png" alt="" class=" mx-auto">
-            </div>
-
-            <!-- Content -->
-            <div class="grid grid-cols-2 gap-x-4 gap-y-6 sm:gap-x-10 sm:gap-y-6">
-              <div class="flex flex-col gap-2 sm:gap-3">
-                <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <p>台北市 Taipei1111</p>
-                </div>
-  
-                <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
-                  <p>
-                    Tel : 886-2500-7189
-                  </p>
-                  <p>
-                    Fax : 886-2-2500-6389
-                  </p>
-                </div>
-              </div>
-              <div class="flex flex-col gap-2 sm:gap-3">
-                <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <p>台北市 Taipei</p>
-                </div>
-  
-                <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
-                  <p>
-                    Tel : 886-2500-7189
-                  </p>
-                  <p>
-                    Fax : 886-2-2500-6389
-                  </p>
-                </div>
-              </div>
-            </div>
-           </div>
-        </div>
-        <!-- Indonesia -->
-        <div id="bar-with-underline-4" class="hidden" role="tabpanel" aria-labelledby="bar-with-underline-item-4">
-           <div class="grid md:grid-cols-2 gap-6 sm:gap-10">
-            <!-- Img -->
-            <div>
-            <img src="../img/Indonesia.png" alt="" class=" mx-auto">
-            </div>
-
-            <!-- Content -->
-            <div class="grid grid-cols-2 gap-x-4 gap-y-6 sm:gap-x-10 sm:gap-y-6">
-              <div class="flex flex-col gap-2 sm:gap-3">
-                <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <p>台北市 Taipei</p>
-                </div>
-  
-                <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
-                  <p>
-                    Tel : 886-2500-7189
-                  </p>
-                  <p>
-                    Fax : 886-2-2500-6389
-                  </p>
-                </div>
-              </div>
-              <div class="flex flex-col gap-2 sm:gap-3">
-                <div class="flex gap-1.5 text-blue-500 font-semibold items-center">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <p>台北市 Taipei</p>
-                </div>
-  
-                <div class="text-gray-500 flex flex-col gap-1.5 border-l-4 border-gray-300 pl-4 text-sm sm:text-base">
-                  <p>
-                    Tel : 886-2500-7189
-                  </p>
-                  <p>
-                    Fax : 886-2-2500-6389
-                  </p>
-                </div>
-              </div>
-            </div>
-           </div>
-        </div>
+  <!-- News Section -->
+  <section id="bg3">
+   <div class="relative section py-4 md:py-6 grid lg:grid-cols-3 grid-flow-col gap-10">
+    <!-- 文章 -->
+    <article class="col-span-2 text-gray-700 ">
+      <img src="../img/news-banner1.png" class="py-4 lg:py-6" alt="">
+      <!-- 時間 + 標題 -->
+      <div class="text-center">
+        <time class="text-xs md:text-base font-semibold text-sky-400 inline-flex pb-1 md:pb-2">
+          2023-09-19
+        </time>
+        <p class="md:text-3xl text-gray-900 font-semibold  pb-4 md:pb-10">
+          臺北關籲請業者報運貨品出口，應依規定正確標示產地
+        </p>
       </div>
 
+      <!-- 內文 -->
+      <div class="md:text-lg indent-8 pb-10 text-justify">
+        <p>
+          臺北關表示，依貿易法第17條第2款規定，出進口人不得有未依規定標示來源識別、產地或標示不實之行為。又依貨品輸出管理辦法規定，輸出貨品應於貨品本身或內外包裝上標示產地，如係在我國產製者，應標示「中華民國製造」、「中華民國臺灣製造」或「臺灣製造」，或以同義外文標示之。業者輸出貨品倘經查獲未依規定標示產地或標示不實者，海關將依「海關配合進出口貿易管理作業規定」第7點規定，移請經濟部國際貿易局(下稱貿易局)查處。
+        </p>
+        <br>
+        <p>
+          該關進一步指出，業者報運國貨出口者，其貨品外包裝產地標示雖為「MADE IN TAIWAN」，惟經查驗結果，如貨上標示產地非為臺灣，則顯涉有產地標示不實情事，核屬違反貿易法第17條第2款規定。該關重申，出口貨品未依規定標示產地或標示不實，除依規定責成退關，並將移請貿易局依貿易法第28條第1款第6款及「輸出貨品未依規定標示產地或產地標示不實處分原則」議處。
+        </p>
+        <br>
+        <p>
+          臺北關強調，為防杜以產地標示不實方式達成違規轉運目的，海關將持續加強查核貨品產地，籲請業者配合前揭貿易法相關規定，並可於貨品出口前先行確認貨品產地，並正確標示，以利通關。相關資訊請上貿易局網站查詢(https://www.trade.gov.tw)
+        </p>
+      </div>
+
+      <!-- 分隔線 -->
+      <hr class="pb-4 md:pb-6">
+
+      <!-- 文章來源 -->
+      <ul class="list-inside list-disc text-sm md:text-lg">
+        <li>
+          業務承辦單位：臺北關業務一組
+        </li>
+        <li>
+          聯絡電話：03-3834265  分機267
+        </li>
+        <li>
+          以上內容來自
+          <a href="" class="text-blue-400 hover:text-blue-500 transition-all">
+            財政部關務署官方網站-資訊匯流
+          </a>
+        </li>
+      </ul>
+
+    </article>
+
+    <!-- 最近文章列表 -->
+    <div class="">
+      <div class="hidden lg:block bg-blue-100/70 rounded-2xl border-2 border-white p-6 h-fit">
+        <!-- Title -->
+        <div class="flex justify-between items-end pb-6">
+          <p class="text-4xl text-gray-900">Reviews</p>
+          <!-- More BTN -->
+          <a href="../dist/news.html" class="flex gap-2 sm:gap-3 items-center group text-gray-900 hover:text-blue-500 transition duration-300 ease-in-out">
+            <p class="text-sm whitespace-nowrap">
+              查看更多
+            </p>
+            <div class="relative right-0 group-hover:-right-1 ">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+          </a>
+        </div>
+  
+        <!-- 文章列表 -->
+        <div class="flex flex-col gap-4">
+          <!-- Card 1 -->
+          <a href="../dist/news-2.html" class="newsCard__wrapper group" >
+            <div class="flex bg-white rounded-xl">
+              <!-- img -->
+              <div class="newsImg">
+                <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
+              </div>
+  
+              <!-- Content -->
+              <div class="newsContent__wrapper gap-2">
+                <time class="text-xs font-semibold text-sky-400">
+                  2023-09-19
+                </time>
+                <p class="line-clamp-2 text-lg  text-gray-900">
+                  臺北關籲請業者報運貨品出口，應依規定正確標示產地
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Card 2 -->
+          <a href="../dist/news-3.html" class="newsCard__wrapper group" >
+            <div class="flex bg-white rounded-xl">
+              <!-- img -->
+              <div class="newsImg">
+                <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
+              </div>
+  
+              <!-- Content -->
+              <div class="newsContent__wrapper gap-2">
+                <time class="text-xs font-semibold text-sky-400">
+                  2023-07-05
+                </time>
+                <p class="line-clamp-2 text-lg  text-gray-900">
+                  臺北關籲請業者正確申報出口貨樣統計方式
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Card 3 -->
+          <a href="../dist/news-4.html" class="newsCard__wrapper group" >
+            <div class="flex bg-white rounded-xl">
+              <!-- img -->
+              <div class="newsImg">
+                <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
+              </div>
+  
+              <!-- Content -->
+              <div class="newsContent__wrapper gap-2">
+                <time class="text-xs font-semibold text-sky-400">
+                  2023-06-27
+                </time>
+                <p class="line-clamp-2 text-lg  text-gray-900">
+                  商民申請進口貨物稅則預先審核時應提供正確貨物資料
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
+    
+   </div>
   </section>
 
   <!-- Footer Section -->
@@ -434,7 +366,7 @@
 
   <!-- Preline -->
   <script src="../node_modules/preline/dist/preline.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  <script src="../node_modules/flowbite/dist//flowbite.min.js"></script>
 
   <!-- Swiper -->
   <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
