@@ -2542,18 +2542,6 @@ input:checked + .toggle-bg{
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'\.\.\/img\/import-bg\.png\'\)\]{
-  background-image: url('../img/import-bg.png');
-}
-
-.bg-\[url\(\'\.\.\/img\/plane-bg\.png\'\)\]{
-  background-image: url('../img/plane-bg.png');
-}
-
-.bg-\[url\(\'\.\.\/img\/truck-bg\.png\'\)\]{
-  background-image: url('../img/truck-bg.png');
-}
-
 .bg-\[url\(\'\.\/img\/about1\.png\'\)\]{
   background-image: url('./img/about1.png');
 }
@@ -2574,24 +2562,16 @@ input:checked + .toggle-bg{
   background-image: url('img/about3.png');
 }
 
-.bg-\[url\(\'\/img\/truck-bg\.png\'\)\]{
-  background-image: url('/img/truck-bg.png');
-}
-
-.bg-\[url\(\'\.\/img\/truck-bg\.png\'\)\]{
-  background-image: url('./img/truck-bg.png');
-}
-
-.bg-\[url\(\'img\/truck-bg\.png\'\)\]{
-  background-image: url('img/truck-bg.png');
-}
-
 .bg-\[url\(\'img\/import-bg\.png\'\)\]{
   background-image: url('img/import-bg.png');
 }
 
 .bg-\[url\(\'img\/plane-bg\.png\'\)\]{
   background-image: url('img/plane-bg.png');
+}
+
+.bg-\[url\(\'img\/truck-bg\.png\'\)\]{
+  background-image: url('img/truck-bg.png');
 }
 
 .bg-50\%{
@@ -3155,7 +3135,7 @@ html {
 
 #banner1 {
   background-image: url(img/banner1.png);
-  aspect-ratio: 3/1;
+  aspect-ratio: 5/2;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3163,13 +3143,14 @@ html {
 
 @media (min-width: 768px){
   #banner1{
+    aspect-ratio: 3/1;
     background-attachment: fixed;
   }
 }
 
 #banner2 {
   background-image: url(img/banner2.png);
-  aspect-ratio: 3/1;
+  aspect-ratio: 5/2;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3177,13 +3158,14 @@ html {
 
 @media (min-width: 768px){
   #banner2{
+    aspect-ratio: 3/1;
     background-attachment: fixed;
   }
 }
 
 #banner3 {
   background-image: url(img/banner3.png);
-  aspect-ratio: 3/1;
+  aspect-ratio: 5/2;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3191,13 +3173,14 @@ html {
 
 @media (min-width: 768px){
   #banner3{
+    aspect-ratio: 3/1;
     background-attachment: fixed;
   }
 }
 
 #banner4 {
   background-image: url(img/banner4.png);
-  aspect-ratio: 3/1;
+  aspect-ratio: 5/2;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3205,13 +3188,14 @@ html {
 
 @media (min-width: 768px){
   #banner4{
+    aspect-ratio: 3/1;
     background-attachment: fixed;
   }
 }
 
 #banner5 {
   background-image: url(img/banner5.png);
-  aspect-ratio: 3/1;
+  aspect-ratio: 5/2;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3219,6 +3203,7 @@ html {
 
 @media (min-width: 768px){
   #banner5{
+    aspect-ratio: 3/1;
     background-attachment: fixed;
   }
 }
@@ -3694,13 +3679,13 @@ html {
     width: 10rem;
   }
 
-  .sm\:w-full{
-    width: 100%;
-  }
-
   .sm\:w-fit{
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .sm\:w-full{
+    width: 100%;
   }
 
   .sm\:max-w-5xl{

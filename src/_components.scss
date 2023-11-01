@@ -74,21 +74,21 @@
 }
 #banner1 {
     background-image: url(img/banner1.png);
-    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[3/1];
+    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[5/2] md:aspect-[3/1];
 }
 #banner2 {
     background-image: url(img/banner2.png);
-    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[3/1];
+    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[5/2] md:aspect-[3/1];
 }
 #banner3 {
     background-image: url(img/banner3.png);
-    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[3/1];
+    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[5/2] md:aspect-[3/1];
 }
 #banner4 {
     background-image: url(img/banner4.png);
-    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[3/1];
+    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[5/2] md:aspect-[3/1];
 }
 #banner5 {
     background-image: url(img/banner5.png);
-    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[3/1];
+    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[5/2] md:aspect-[3/1];
 }
