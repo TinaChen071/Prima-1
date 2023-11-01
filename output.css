@@ -1241,6 +1241,7 @@ input:checked + .toggle-bg{
 }
 
 .nav__BTN{
+  white-space: nowrap;
   font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -2221,13 +2222,12 @@ input:checked + .toggle-bg{
        column-gap: 1rem;
 }
 
-.gap-x-6{
-  -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
-}
-
 .gap-y-1{
   row-gap: 0.25rem;
+}
+
+.gap-y-2{
+  row-gap: 0.5rem;
 }
 
 .gap-y-4{
@@ -2240,15 +2240,6 @@ input:checked + .toggle-bg{
 
 .gap-y-6{
   row-gap: 1.5rem;
-}
-
-.gap-x-7{
-  -moz-column-gap: 1.75rem;
-       column-gap: 1.75rem;
-}
-
-.gap-y-2{
-  row-gap: 0.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -3438,16 +3429,6 @@ html {
 :is(.dark .dark\:shadow-slate-700\/\[\.7\]){
   --tw-shadow-color: rgb(51 65 85 / .7);
   --tw-shadow: var(--tw-shadow-colored);
-}
-
-:is(.dark .dark\:checked\:border-blue-500:checked){
-  --tw-border-opacity: 1;
-  border-color: rgb(63 131 248 / var(--tw-border-opacity));
-}
-
-:is(.dark .dark\:checked\:bg-blue-500:checked){
-  --tw-bg-opacity: 1;
-  background-color: rgb(63 131 248 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:hover\:bg-blue-700:hover){
