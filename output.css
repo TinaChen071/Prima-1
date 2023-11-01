@@ -2134,10 +2134,6 @@ input:checked + .toggle-bg{
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .flex-row{
   flex-direction: row;
 }
