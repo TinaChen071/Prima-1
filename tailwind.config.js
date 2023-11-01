@@ -33,10 +33,14 @@ module.exports = {
       zIndex: {
         '100': '100',
       },
+      backgroundSize: {
+        '50%': '50%'
+      }
     },
     fontFamily: {
       num:['Water Brush']
-    }
+    },
+    
   },
   plugins: [
     require('@tailwindcss/forms'),

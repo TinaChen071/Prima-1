@@ -41,7 +41,7 @@ const backToTopBtn = document.getElementById('backToTopBtn');
 
 // ToTop BTN 換顏色
 function updateButtonColor() {
-  if (window.scrollY > 1800) {
+  if (window.scrollY > 4000) {
     backToTopBtn.classList.remove('bg-blue-300', 'text-white');
     backToTopBtn.classList.add('bg-white/50', 'text-white');
   } else {

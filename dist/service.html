@@ -153,208 +153,207 @@
       </nav>
     </header>
 
-    <!-- Banner -->
-    <div class="" id="banner4"></div>
-
   </section>
 
   <!-- News Section -->
   <section class="relative" id="bg3">
-    <!-- Wave -->
-    <div class="w-full absolute -top-10 md:-top-12">
-      <svg class="relative w-full h-12 " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-      <defs>
-      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-      </defs>
-      <g class="parallax">
-      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.8)" />
-      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.6)" />
-      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.4)" />
-      <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255,0.2)" />
-      </g>
-      </svg>
-    </div>
-
+    
     <!-- Content -->
-    <div class="section">
+    <div class="">
+      <!-- 海空運介紹 -->
+      <div>
+        <!-- 海空運 Banner -->
+        <div class="grid md:grid-cols-2 shadow-lg">
+          <!-- Img -->
+          <div>
+            <img src="../img/about1.png" class="object-cover h-full w-full" alt="">
+          </div>
+          <!-- Info -->
+          <div class="bg-blue-50 bg-50%  bg-no-repeat bg-center bg-[url('../img/plane-bg.png')] flex flex-col gap-y-4 lg:gap-y-8 items-center justify-center py-10 ">
+            <p class="text-4xl lg:text-6xl text-blue-500">海空運承攬</p>
+            <p class="text-xl lg:text-4xl text-gray-900">我們提供以下的海空運承攬服務</p>
+            <a href="../dist/contact.html">
+              <button type="button" class="py-2 px-5 w-fit justify-center items-center gap-2 rounded-full border border-blue-500 font-medium text-blue-500 hover:text-white shadow-sm align-middle hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm">
+                聯絡我們
+              </button>
+            </a>
+          </div>
 
-      <!-- Title -->
-      <div class="flex justify-between items-end">
-        <!-- Title -->
-        <div class="flex flex-col gap-y-1 sm:gap-y-3">
-          <p class="text-sm md:text-lg font-semibold text-blue-600">
-            News
-          </p>
-          <h1 class="text-xl md:text-5xl">最新消息</h1>
         </div>
 
-        <!-- 篩選 BTN -->
-        <div class="hs-dropdown relative inline-flex">
-          <button id="hs-dropdown-default" type="button" class="hs-dropdown-toggle py-2 px-3 sm:py-3 sm:px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-600 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm ">
-            全部
-            <i class="fa-solid fa-chevron-down text-xs"></i>
-          </button>
-        
-          <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] hs-dropdown-open:opacity-100 opacity-0 hidden z-10 mt-2 min-w-[8rem] bg-white shadow-md rounded-lg p-2 " aria-labelledby="hs-dropdown-default">
-            <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 " href="#">
-              由新至舊
-            </a>
-            <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 " href="#">
-              由舊至新
-            </a>
-            
+        <!-- 海空運 Section -->
+        <div class="section text-center">
+          <!-- 介紹 -->
+          <div>
+            <p class="text-xl md:text-4xl text-gray-900 pb-2 md:pb-3">海空運服務介紹</p>
+            <p class="md:text-xl text-gray-700">
+              涵蓋來往世界各地的海空運進出口貨物，服務包括整櫃和併櫃，提供訂艙、報關、裝船等服務。各項貨櫃種類如乾燥貨車、高立體、溫控、敞篷或平架貨櫃，第一郵捷提供各種運輸需求，特殊產品或貨物（超重、特大尺寸、敏感貨物）運輸專案。
+            </p>
           </div>
+
+          <!-- 諮詢 + 規劃 -->
+          <div class="grid md:grid-cols-2 gap-6 md:gap-10">
+            <!-- 諮詢 -->
+            <div class="flex flex-col items-center">
+              <img src="../img/物流諮詢.png" class="pb-4" alt="">
+              <div>
+                <p class="text-blue-500 text-xl font-semibold pb-2">物流諮詢</p>
+
+                <ul class="list-outside list-disc text-gray-700 md:text-lg text-left">
+                  <li>
+                    提供個性化的物流解決方案。
+                  </li>
+                  <li>
+                    提供物流諮詢、個案分析、物流方案評估與再設計。
+                  </li>
+                  <li>
+                    提供整體物流服務包含特定領域的物流問題或單一路徑物流的問題或某一路徑運送的問題。
+                  </li>
+                  <li>
+                    進行各種運輸方式的可能性評估；單點送多目的地點/多點送到單一目的地點的各項規劃。
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- 規劃 -->
+            <div class="flex flex-col items-center">
+              <img src="../img/物流規劃.png" class="pb-4" alt="">
+              <div>
+                <p class="text-blue-500 text-xl font-semibold pb-2">物流規劃</p>
+
+                <ul class="list-outside list-disc text-gray-700 md:text-lg text-left">
+                  <li>
+                    海運整櫃及併櫃單點開櫃服務
+                  </li>
+                  <li>
+                    大宗散裝貨物運送
+                  </li>
+                  <li>
+                    特殊櫃運送
+                  </li>
+                  <li>
+                    Door-to-door Service
+                  </li>
+                  <li>
+                    海空陸聯運服務
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- 服務流程 -->
+          <img src="../img/服務流程-L.png" class="hidden sm:block rounded-3xl border-2 border-sky-200" alt="">
+          <img src="../img/服務流程-S.png" class=" sm:hidden rounded-3xl border-2 border-sky-200" alt="">
+
         </div>
-        
       </div>
 
-      <!-- News Card -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 ">
-        <!-- Card 1 -->
-        <a href="#" class="newsCard__wrapper group" >
-          <div class="flex bg-white rounded-lg sm:rounded-xl">
-            <!-- img -->
-            <div class="newsImg">
-              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
+      <!-- 進出口報關介紹 -->
+      <div>
+        <!-- 進出口報關 Banner -->
+        <div class="grid md:grid-cols-2 shadow-lg">
+          <!-- Img -->
+          <div>
+            <img src="../img/about1.png" class="object-cover h-full w-full" alt="">
+          </div>
+          <!-- Info -->
+          <div class="bg-blue-50 bg-50%  bg-no-repeat bg-center bg-[url('../img/plane-bg.png')] flex flex-col gap-y-4 lg:gap-y-8 items-center justify-center py-10 ">
+            <p class="text-4xl lg:text-6xl text-blue-500">進出口報關</p>
+            <p class="text-xl lg:text-4xl text-gray-900">我們提供以下的進出口報關服務</p>
+            <a href="../dist/contact.html">
+              <button type="button" class="py-2 px-5 w-fit justify-center items-center gap-2 rounded-full border border-blue-500 font-medium text-blue-500 hover:text-white shadow-sm align-middle hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm">
+                聯絡我們
+              </button>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- 海空運 Section -->
+        <div class="section text-center">
+          <!-- 介紹 -->
+          <div>
+            <p class="text-xl md:text-4xl text-gray-900 pb-2 md:pb-3">進出口報關服務介紹</p>
+            <p class="md:text-xl text-gray-700">
+              第一郵捷的專業團隊瞭解各國複雜的法規和程序，為客戶的國際貿易提供頂尖專業進出口報關服務，能迅速處理所有程序及手續，確保貨物能夠準時通關。客戶可以透過我們專業服務節省寶貴的時間和資源，並專注於國際貿易的核心業務。選擇我們，您將獲得一個可靠的報關合作夥伴，確保您的國際貿易順利無阻，進而創造最大的利潤空間。
+            </p>
+          </div>
+
+          <!-- 服務 -->
+          <div class="p-4 bg-slate-50 shadow-inner rounded-xl grid md:grid-cols-2 place-items-center ">
+
+            <div class="text-left md:px-16 order-2 md:order-1">
+              <p class="text-xl md:text-2xl text-blue-500 py-2 md:py-4">
+                商務代理：兩岸三地貿易由台灣主導往返大陸的承運服務
+              </p>
+              <ul class="list-inside list-disc md:text-lg text-gray-600">
+                <li>
+                  三角貿易/轉口貿易
+                </li>
+                <li>
+                  貨物保險
+                </li>
+                <li>
+                  專業報關
+                </li>
+              </ul>
             </div>
 
-            <!-- Content -->
-            <div class="newsContent__wrapper">
-              <time class="text-xs font-semibold text-sky-400">
-                2023-09-19
-              </time>
-              <div class="flex flex-col gap-6 justify-between h-full">
-                <div class="flex flex-col gap-2">
-                  <p class="line-clamp-2 text-lg md:text-3xl text-gray-900">
-                    臺北關籲請業者報運貨品出口，應依規定正確標示產地
-                  </p>
-                  <div class="">
-                    <p class="line-clamp-2 text-gray-700 md:text-xl">
-                      臺北關表示，依貿易法第17條第2款規定，出進口人不得有未依規定標示來源識別、產地或標示不實之行為。又依貨品輸出管理辦法規定，輸出貨品應於貨品本身或內外包裝上標示產地，如係在我國產製者，應標示「中華民國製造」、「中華民國臺灣製造」或「臺灣製造」，或以同義外文標示之。業者輸出貨品倘經查獲未依規定標示產地或標示不實者，海關將依「海關配合進出口貿易管理作業規定」第7點規定，移請經濟部國際貿易局(下稱貿易局)查處。
-                    </p>
-                  </div>
-                </div>
-                
-                <button type="button" class="hidden xs:block button ">
-                  閱讀更多
-                </button>
-              </div>
-            </div>
-          </div>
-        </a>
-        <!-- Card 2 -->
-        <a href="#" class="newsCard__wrapper group" >
-          <div class="flex bg-white rounded-lg sm:rounded-xl">
-            <!-- img -->
-            <div class="newsImg">
-              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
-            </div>
+            <img src="../img/進出口報關-2.png" class="order-1 md:order-2" alt="">
 
-            <!-- Content -->
-            <div class="newsContent__wrapper">
-              <time class="text-xs font-semibold text-sky-400">
-                2023-07-05
-              </time>
-              <div class="flex flex-col gap-6 justify-between h-full">
-                <div class="flex flex-col gap-2">
-                  <p class="line-clamp-2 text-lg md:text-3xl text-gray-900">
-                    臺北關籲請業者正確申報出口貨樣統計方式
-                  </p>
-                  <div class="">
-                    <p class="line-clamp-2 text-gray-700 md:text-xl">
-                      臺北關表示，海關對出口貨樣是否屬關稅法第53條規定之貨品已定有明確規範，貨物輸出人報運貨樣出口時，應一併考量該貨樣是否原貨復運進口，並依關稅法、出口貨物報關驗放辦法等規定正確申報統計方式，以免損及權益。
-                    </p>
-                  </div>
-                </div>
-                
-                <button type="button" class="hidden xs:block button ">
-                  閱讀更多
-                </button>
-              </div>
-            </div>
           </div>
-        </a>
-        <!-- Card 3 -->
-        <a href="#" class="newsCard__wrapper group" >
-          <div class="flex bg-white rounded-lg sm:rounded-xl">
-            <!-- img -->
-            <div class="newsImg">
-              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
-            </div>
 
-            <!-- Content -->
-            <div class="newsContent__wrapper">
-              <time class="text-xs font-semibold text-sky-400">
-                2023-06-27
-              </time>
-              <div class="flex flex-col gap-6 justify-between h-full">
-                <div class="flex flex-col gap-2">
-                  <p class="line-clamp-2 text-lg md:text-3xl text-gray-900">
-                    商民申請進口貨物稅則預先審核時應提供正確貨物資料
-                  </p>
-                  <div class="">
-                    <p class="line-clamp-2 text-gray-700 md:text-xl">
-                      基隆關表示，貨物進口前如已正確瞭解稅則號別，除可預估應繳之進口稅費，亦可知其貨品輸入規定，預先備妥相關資料或向主管機關申請，嗣貨物實際進口時可加速通關，如對進口貨物稅則號別有疑義，得依「進口貨物稅則預先審核實施辦法」按規定格式填寫申請書，並檢附原廠型錄及說明書等相關資料或樣品向進口地海關申請，審核結果將書面答復之，且其結果海關一體適用。
-                    </p>
-                  </div>
-                </div>
-                
-                <button type="button" class="hidden xs:block button ">
-                  閱讀更多
-                </button>
-              </div>
-            </div>
-          </div>
-        </a>
-        <!-- Card 4 -->
-        <a href="#" class="newsCard__wrapper group" >
-          <div class="flex bg-white rounded-lg sm:rounded-xl">
-            <!-- img -->
-            <div class="newsImg">
-              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
-            </div>
-
-            <!-- Content -->
-            <div class="newsContent__wrapper">
-              <time class="text-xs font-semibold text-sky-400">
-                2023-06-20
-              </time>
-              <div class="flex flex-col gap-6 justify-between h-full">
-                <div class="flex flex-col gap-2">
-                  <p class="line-clamp-2 text-lg md:text-3xl text-gray-900">
-                    轉運及轉口貨物通關管理辦法112年5月實施 留意非以貨櫃裝運之轉運及轉口貨物相關規定
-                  </p>
-                  <div class="">
-                    <p class="line-clamp-2 text-gray-700 md:text-xl">
-                      基隆關表示，為規範轉運、轉口貨物之申報方式、通關程序、管理及其他相關事宜，財政部以本（112）年5月22日台財關字第1121011767號令，訂定施行轉運及轉口貨物通關管理辦法（下稱本辦法），就轉運申請書類別、免申報轉運申請書之條件、指定之業者申報之申請書類別、其應負之責任義務與轉運及轉口貨物之移動安全等事項予以規範，請業者注意。
-                    </p>
-                  </div>
-                </div>
-                
-                <button type="button" class="hidden xs:block button ">
-                  閱讀更多
-                </button>
-              </div>
-            </div>
-          </div>
-        </a>
+        </div>
       </div>
+      
+      <!-- 卡車運輸介紹 -->
+      <div>
+        <!-- 卡車運輸 Banner -->
+        <div class="grid md:grid-cols-2 shadow-lg">
+          <!-- Img -->
+          <div>
+            <img src="../img/about1.png" class="object-cover h-full w-full" alt="">
+          </div>
+          <!-- Info -->
+          <div class="bg-blue-50 bg-50%  bg-no-repeat bg-center bg-[url('../img/plane-bg.png')] flex flex-col gap-y-4 lg:gap-y-8 items-center justify-center py-10 ">
+            <p class="text-4xl lg:text-6xl text-blue-500">卡車運輸</p>
+            <p class="text-xl lg:text-4xl text-gray-900">我們提供以下的卡車運輸服務</p>
+            <a href="../dist/contact.html">
+              <button type="button" class="py-2 px-5 w-fit justify-center items-center gap-2 rounded-full border border-blue-500 font-medium text-blue-500 hover:text-white shadow-sm align-middle hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm">
+                聯絡我們
+              </button>
+            </a>
+          </div>
 
-      <!-- Pagination -->
-      <nav class="flex justify-center items-center space-x-2">
-        <a class="pagination gap-2 rounded-md" href="#">
-          <i class="fa-solid fa-chevron-left"></i>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="w-10 h-10 bg-sky-300 text-white p-4 inline-flex items-center text-sm font-medium rounded-full transition-all" href="#" aria-current="page">1</a>
-        <a class="w-10 h-10 pagination text-sm font-medium rounded-full" href="#">2</a>
-        <a class="w-10 h-10 pagination text-sm font-medium rounded-full" href="#">3</a>
-        <a class="pagination gap-2 rounded-md" href="#">
-          <span class="sr-only">Next</span>
-          <i class="fa-solid fa-chevron-right"></i>
-        </a>
-      </nav>
+        </div>
+
+        <!-- 卡車運輸 Section -->
+        <div class="section ">
+          <div class="text-center grid lg:grid-cols-2">
+            <!-- 介紹 -->
+          <div class="order-2 lg:order-1">
+            <p class="text-xl md:text-4xl text-gray-900 pb-2 md:pb-3">卡車運輸服務介紹</p>
+            <p class="md:text-xl text-gray-700 text-left pb-6">
+              第一郵捷擁有多種卡車型號，以滿足不同尺寸和重量的貨物運輸需求，確保貨物準時送達目的地。無論是城市內短途運輸或長途運輸，經驗豐富的司機團隊都將確保貨物的安全和完整。我們以客戶的需求為中心，提供靈活的運輸方案，確保貨物以最佳狀態抵達。堅持高品質、高效率的服務態度，為您的物流運輸提供信賴保證。選擇我們，即選擇了可靠的卡車運輸合作夥伴，讓我們一同為您的業務增值。
+            </p>
+            <ul class="list-outside list-disc text-left text-blue-400">
+              <li>
+                依貨物性質、地理位置、交通條件等因素，建議適合的倉儲及運輸方案。
+              </li>
+              <li>
+                以制度化管理讓物流中心發揮最高功能，滿足客戶需求，創造最大的效益。
+              </li>
+            </ul>
+          </div>
+
+          <!-- Img -->
+          <img src="../img/卡車運輸-2.png" class="order-1 lg:order-2" alt="">
+          </div>
+          
+        </div>
+      </div>
 
     </div>
   </section>
@@ -372,13 +371,13 @@
           </a>
           <!-- link -->
           <div class="hidden md:grid grid-cols-4 justify-around gap-4 md:gap-8 ">
-            <a href="../dist/about.html" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">關於我們
+            <a href="../dist/about.html" class="text-sm md:text-base text-white hover:text-blue-300 transition-all whitespace-nowrap">關於我們
             </a>
-            <a href="../dist/news.html" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">最新消息
+            <a href="../dist/news.html" class="text-sm md:text-base text-white hover:text-blue-300 transition-all whitespace-nowrap">最新消息
             </a>
-            <a href="../dist/service.html" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">服務項目
+            <a href="../dist/service.html" class="text-sm md:text-base text-white hover:text-blue-300 transition-all whitespace-nowrap">服務項目
             </a>
-            <a href="../dist/taiwan.html" class="text-sm md:text-base text-white hover:text-blue-300 transition-all">聯絡我們
+            <a href="../dist/taiwan.html" class="text-sm md:text-base text-white hover:text-blue-300 transition-all whitespace-nowrap">聯絡我們
             </a>
           </div>
         </div>
