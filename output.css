@@ -3623,6 +3623,10 @@ html {
     display: block;
   }
 
+  .xs\:hidden{
+    display: none;
+  }
+
   .xs\:w-2\/3{
     width: 66.666667%;
   }
