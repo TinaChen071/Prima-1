@@ -2574,6 +2574,10 @@ input:checked + .toggle-bg{
   background-image: url('img/about3.png');
 }
 
+.bg-\[url\(\'\/img\/truck-bg\.png\'\)\]{
+  background-image: url('/img/truck-bg.png');
+}
+
 .bg-50\%{
   background-size: 50%;
 }
