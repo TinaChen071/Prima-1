@@ -2578,6 +2578,22 @@ input:checked + .toggle-bg{
   background-image: url('/img/truck-bg.png');
 }
 
+.bg-\[url\(\'\.\/img\/truck-bg\.png\'\)\]{
+  background-image: url('./img/truck-bg.png');
+}
+
+.bg-\[url\(\'img\/truck-bg\.png\'\)\]{
+  background-image: url('img/truck-bg.png');
+}
+
+.bg-\[url\(\'img\/import-bg\.png\'\)\]{
+  background-image: url('img/import-bg.png');
+}
+
+.bg-\[url\(\'img\/plane-bg\.png\'\)\]{
+  background-image: url('img/plane-bg.png');
+}
+
 .bg-50\%{
   background-size: 50%;
 }
