@@ -2566,16 +2566,16 @@ input:checked + .toggle-bg{
   background-image: url('img/import-bg.png');
 }
 
+.bg-\[url\(\'img\/news-default\.png\'\)\]{
+  background-image: url('img/news-default.png');
+}
+
 .bg-\[url\(\'img\/plane-bg\.png\'\)\]{
   background-image: url('img/plane-bg.png');
 }
 
 .bg-\[url\(\'img\/truck-bg\.png\'\)\]{
   background-image: url('img/truck-bg.png');
-}
-
-.bg-\[url\(\'img\/news-default\.png\'\)\]{
-  background-image: url('img/news-default.png');
 }
 
 .bg-50\%{
