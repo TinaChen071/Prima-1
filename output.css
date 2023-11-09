@@ -1304,6 +1304,7 @@ input:checked + .toggle-bg{
 }
 
 .logo__text{
+  white-space: nowrap;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 600;
