@@ -1777,6 +1777,10 @@ input:checked + .toggle-bg{
   margin-top: 1.25rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .line-clamp-2{
   overflow: hidden;
   display: -webkit-box;
@@ -4086,6 +4090,10 @@ html {
     grid-column: span 2 / span 2;
   }
 
+  .lg\:mb-6{
+    margin-bottom: 1.5rem;
+  }
+
   .lg\:block{
     display: block;
   }
@@ -4135,6 +4143,10 @@ html {
 
   .lg\:py-6{
     padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .lg\:pb-6{
     padding-bottom: 1.5rem;
   }
 
