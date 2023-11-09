@@ -1247,6 +1247,11 @@ input:checked + .toggle-bg{
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.nav__BTN:hover{
+  --tw-text-opacity: 1;
+  color: rgb(63 131 248 / var(--tw-text-opacity));
+}
+
 .nav__SubBTN{
   display: flex;
   align-items: center;
